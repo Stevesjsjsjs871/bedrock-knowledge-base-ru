@@ -99,7 +99,40 @@
               ],
               "format": "date"
             }
-          }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "passed",
+                      "failed",
+                      "partial"
+                    ]
+                  }
+                },
+                "required": [
+                  "status"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "tested_versions": {
+                    "minItems": 1
+                  },
+                  "platform": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "tested_on": {
+                    "type": "string",
+                    "format": "date"
+                  }
+                }
+              }
+            }
+          ]
         }
       }
     },
