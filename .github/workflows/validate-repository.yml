@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
       - name: Run all unit tests
         run: python -m unittest discover -s tests -v
       - name: Validate repository JSON and pack manifests
