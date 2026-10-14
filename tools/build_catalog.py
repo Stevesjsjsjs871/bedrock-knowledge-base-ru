@@ -10,7 +10,7 @@ SOURCES = ROOT / "sources"
 OUT = ROOT / "docs" / "ru"
 EXTS = {".md", ".mdx", ".yml", ".yaml"}
 UPSTREAM = {
-    "bedrock-wiki": "https://github.com/Bedrock-OSS/bedrock-wiki/blob/main/",
+    "bedrock-wiki": "https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/",
     "minecraft-creator": "https://github.com/MicrosoftDocs/minecraft-creator/blob/main/",
 }
 
