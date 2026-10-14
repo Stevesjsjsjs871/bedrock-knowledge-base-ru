@@ -94,7 +94,7 @@
     },
     {
       "document": "docs/ru/разборы/АНАЛИЗ_FPS_BOOSTER_И_LITHIUM.md",
-      "claim": "Minecraft Bedrock particle effects use a custom JSON format and are stored in a resource pack's particles directory; this describes pack structure, not a measured performance benefit.",
+      "claim": "Resource Pack overrides can reduce a player's local visual particle workload by suppressing or limiting selected effects; this is a plausible mechanism, not a guaranteed FPS gain or a server-wide optimization.",
       "last_reviewed": "2026-10-14",
       "game_versions": [
         "1.21.51",
@@ -115,7 +115,7 @@
           "kind": "official_docs",
           "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/particleeffects?view=minecraft-bedrock-stable",
           "checked_on": "2026-10-14",
-          "note": "Microsoft Learn Stable particle tutorial states that Bedrock particle effects use a custom JSON format and files are stored in a resource pack's particles folder."
+          "note": "Microsoft Learn documents particle emitters and the max_particles limit; this supports the mechanism and per-emitter limit, not any measured FPS improvement or the hypothetical million-particle scenario."
         },
         {
           "kind": "community",
@@ -125,9 +125,10 @@
         }
       ],
       "limitations": [
-        "This confirms the documented file format and location only; it does not confirm that either analyzed pack imports or works in game.",
-        "No FPS or frame-time measurements were performed.",
-        "The official page is the Stable documentation view, but no game-version-specific runtime behavior was tested."
+        "Documentation supports the particle emitter and per-emitter max_particles mechanism, but does not prove a specific FPS gain.",
+        "Other players without the same client-side resource pack may continue rendering their own particle effects; no multiplayer stress test was performed.",
+        "No claim is made that one million particles can necessarily be spawned or processed in one point.",
+        "No runtime compatibility, multiplayer behavior, FPS or frame-time measurements were performed."
       ]
     },
     {
