@@ -28,6 +28,8 @@
 - [Компонент attack — урон ближней атаки](docs/ru/справочник/КОМПОНЕНТ_ATTACK.md)
 - [Компонент area_attack — урон по области](docs/ru/справочник/КОМПОНЕНТ_AREA_ATTACK.md)
 - [Компонент attack_cooldown — пауза перед поиском новой цели](docs/ru/справочник/КОМПОНЕНТ_ATTACK_COOLDOWN.md)
+- [Attack Damage — значение урона атаки](docs/ru/справочник/КОМПОНЕНТ_ATTACK_DAMAGE.md)
+- [Компонент damage_sensor — реакция на полученный урон](docs/ru/справочник/КОМПОНЕНТ_DAMAGE_SENSOR.md)
 - [Компонент follow_range — дальность преследования](docs/ru/справочник/КОМПОНЕНТ_FOLLOW_RANGE.md)
 - [Полная структура пакетов](docs/ru/руководства/ПОЛНАЯ_СТРУКТУРА_ПАКЕТОВ.md)
 - [Основы Molang](docs/ru/руководства/MOLANG_ОСНОВЫ.md)
