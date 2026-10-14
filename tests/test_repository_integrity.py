@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 from urllib.parse import unquote
 
-from tools.build_catalog import validate_catalog_rows
+from tools.build_catalog import render_catalog_index, render_source_catalog, validate_catalog_rows
 from tools.validate_repository import validate_json_files, validate_manifest, validate_packs
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,6 +29,28 @@ def manifest(header_uuid: str, module_uuid: str) -> dict:
 
 
 class RepositoryIntegrityTests(unittest.TestCase):
+    def test_source_catalog_renders_entries(self):
+        rows = [{
+            "source": "bedrock-wiki",
+            "path": "guide/example.md",
+            "title": "Example guide",
+            "url": "https://example.test/guide/example.md",
+        }]
+        rendered = render_source_catalog("bedrock-wiki", rows)
+        self.assertIn("# Каталог исходных страниц: Bedrock Wiki", rendered)
+        self.assertIn("[Example guide](https://example.test/guide/example.md)", rendered)
+
+    def test_catalog_index_links_to_each_source_catalog(self):
+        rows = [
+            {"source": "bedrock-wiki"},
+            {"source": "minecraft-creator"},
+            {"source": "minecraft-creator"},
+        ]
+        rendered = render_catalog_index(rows)
+        self.assertIn("каталоги/КАТАЛОГ_BEDROCK_WIKI.md", rendered)
+        self.assertIn("каталоги/КАТАЛОГ_MICROSOFT_CREATOR.md", rendered)
+        self.assertIn("Всего страниц: **3**", rendered)
+
     def test_empty_catalog_snapshot_is_rejected(self):
         with self.assertRaisesRegex(ValueError, "Refusing to overwrite catalog"):
             validate_catalog_rows([])
