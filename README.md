@@ -119,8 +119,8 @@
 - `sources/` — локальные upstream-копии для анализа; не коммитятся по умолчанию.
 
 Подробности о правах и атрибуции: [LICENSES_AND_ATTRIBUTION.md](LICENSES_AND_ATTRIBUTION.md).
-### Автоматическая проверка раздела шейдеров
-Для проверки синтаксиса JSON-примеров и локальных Markdown-ссылок запускается GitHub Actions: [Validate shader documentation](.github/workflows/validate-shader-docs.yml). Локальный запуск: `python -m unittest discover -s tests -v`. Эта проверка не заменяет тестирование resource pack в Minecraft.
+### Автоматическая проверка репозитория
+GitHub Actions запускает единый набор тестов для каждого push и pull request: [Validate repository](.github/workflows/validate-repository.yml). Локально выполните `python -m unittest discover -s tests -v` и `python tools/validate_repository.py`. Проверки структуры и JSON не заменяют тестирование resource pack в Minecraft.
 
 - [Официальные ZIP-архивы Mojang Bedrock Samples по версиям](docs/ru/справочник/КАТАЛОГ_BEDROCK_SAMPLES.md)
 
