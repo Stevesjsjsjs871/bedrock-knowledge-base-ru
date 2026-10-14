@@ -18,7 +18,7 @@
 - [Действия событий](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/EntityReference/Examples/EventActions.md) — действия, используемые обработчиками событий.
 - [Список триггеров](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/EntityReference/Examples/TriggerList.md) — триггеры сущностей.
 - [Список сущностей](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/EntityReference/Examples/EntityList.md) — имена и ссылки на определения сущностей.
-- [Правила появления](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/examples/cliententitydocumentation/dataspawning?view=minecraft-bedrock-stable) — связанный раздел по появлению; сверяйте актуальный URL/раздел на странице Stable.
+- [Правила появления](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/EntityReference/Examples/ClientEntityDocumentation/DataDrivenSpawning.md) — связанный раздел по появлению; сверяйте актуальный URL/раздел на странице Stable.
 
 ## Как использовать справочник
 1. Найдите компонент по точному идентификатору, например `minecraft:health`.
