@@ -25,7 +25,7 @@ class ShaderDocumentationTests(unittest.TestCase):
 
     def test_shader_section_has_expected_articles(self):
         self.assertGreaterEqual(
-            len(self.shader_files), 12,
+            len(self.shader_files), 13,
             "Expected the shader overview and technical articles 00–11.",
         )
 
@@ -72,6 +72,20 @@ class ShaderDocumentationTests(unittest.TestCase):
         structure_doc = (SHADER_DIR / "07_СТРУКТУРА_VIBRANT_VISUALS_JSON.md").read_text(encoding="utf-8")
         self.assertIn("stone.texture_set.json", structure_doc)
         self.assertIn("не в универсальном каталоге `pbr/`", structure_doc)
+
+    def test_texture_set_reference_covers_schema_constraints(self):
+        reference = (SHADER_DIR / "12_СПРАВОЧНИК_СХЕМЫ_TEXTURE_SET.md").read_text(encoding="utf-8")
+        for required_rule in (
+            "слой `color`",
+            "R (красный)",
+            "A (альфа)",
+            "нельзя одновременно задавать `normal` и `heightmap`",
+            "MER и MERS",
+            "только на изображения из того же resource pack",
+            "CONTENT_ERROR",
+        ):
+            with self.subTest(rule=required_rule):
+                self.assertIn(required_rule, reference)
 
 
 if __name__ == "__main__":
