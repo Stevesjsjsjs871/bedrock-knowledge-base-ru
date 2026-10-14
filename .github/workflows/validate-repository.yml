@@ -23,3 +23,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate repository JSON and pack manifests
         run: python tools/validate_repository.py
+      - name: Validate the Performance RP entry point
+        run: python tools/validate_performance_rp.py
