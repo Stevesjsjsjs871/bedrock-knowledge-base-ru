@@ -46,6 +46,9 @@
 - [Как читать компонент](docs/ru/справочник/КАК_ЧИТАТЬ_КОМПОНЕНТ.md)
 - [План полного покрытия](docs/ru/справочник/ПЛАН_ПОЛНОГО_ПОКРЫТИЯ.md)
 
+## Участие в проекте
+- [Правила внесения изменений](CONTRIBUTING.md)
+
 ## Источники
 - [Bedrock Wiki](https://wiki.bedrock.dev/) · [GitHub](https://github.com/Bedrock-OSS/bedrock-wiki)
 - [Microsoft Learn — Entity Reference Stable](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/?view=minecraft-bedrock-stable) · [GitHub](https://github.com/MicrosoftDocs/minecraft-creator)
