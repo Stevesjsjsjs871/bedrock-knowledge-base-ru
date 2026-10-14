@@ -38,6 +38,18 @@ class KnowledgeMetadataSchemaTests(unittest.TestCase):
             {"status", "tested_versions", "platform", "tested_on"},
         )
 
+    def test_completed_game_test_requires_version_platform_and_date(self):
+        in_game = self.schema["properties"]["evidence"]["properties"]["in_game"]
+        condition = in_game["allOf"][0]
+        self.assertEqual(
+            set(condition["if"]["properties"]["status"]["enum"]),
+            {"passed", "failed", "partial"},
+        )
+        then_properties = condition["then"]["properties"]
+        self.assertEqual(then_properties["tested_versions"]["minItems"], 1)
+        self.assertEqual(then_properties["platform"]["type"], "string")
+        self.assertEqual(then_properties["tested_on"]["type"], "string")
+
     def test_each_record_requires_sources_and_limitations(self):
         self.assertIn("sources", self.schema["required"])
         self.assertIn("limitations", self.schema["required"])
