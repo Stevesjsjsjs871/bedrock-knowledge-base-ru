@@ -28,9 +28,9 @@ def render_table(rows, default_status):
         filename = path.rsplit("/", 1)[-1]
         status, card = CARD_STATUS.get(filename, (default_status, None))
         if card:
-            status = "[{}](../справочник/{})".format(status, card)
+            status = "[{}]({})".format(status, card)
         lines.append("| {} | [{}]({}{}) | {} | {} |".format(
-            i, name, UPSTREAM, path, description.replace("|", r"\\|"), status))
+            i, name, UPSTREAM, path, description.replace("|", r"\|"), status))
     return lines
 
 def main():
