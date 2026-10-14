@@ -14,50 +14,50 @@ Vibrant Visuals использует те же основные правила P
 - **Emissive** — вклад собственного свечения материала.
 - **Roughness** — шероховатость поверхности; она влияет на характер бликов и отражений.
 
-Для MER порядок каналов фиксирован: R = Metalness, G = Emissive, B = Roughness. В MERS четвёртый канал A задаёт Subsurface. Не путайте эти каналы с цветовым RGB. MER и MERS нельзя объявлять одновременно в одном Texture Set; MERS поддерживается Vibrant Visuals, но его subsurface-данные не используются RTX. Подробные ограничения и проверенные примеры вынесены в [справочник схемы Texture Set](12_СПРАВОЧНИК_СХЕМЫ_TEXTURE_SET.md).
+Для изображения MER каналы RGB соответствуют: **R = Metallic, G = Emissive, B = Roughness**. Если используется uniform-значение, MER задаётся тремя числами в диапазоне 0–255 или RGB-hex. Не путайте порядок каналов с другими PBR-форматами: неправильная упаковка часто приводит к матовому металлу, «пластиковому» камню или чрезмерному свечению.
 
 ## Normal Map и Height Map
 
 Normal Map меняет направление нормалей поверхности для имитации мелкого рельефа без добавления геометрии. Height Map задаёт информацию о высоте и используется поддерживаемым bump-mapping путём.
 
-Официальная документация Vibrant Visuals описывает поддержку Height Map и Normal Map. Это не означает, что любая произвольная карта будет выглядеть одинаково на всех материалах или устройствах. Проверяйте диапазон, формат, направление деталей и соответствие исходной цветовой текстуре.
+Официальная документация Vibrant Visuals описывает поддержку Height Map и Normal Map. В Texture Set нельзя одновременно объявлять `normal` и `heightmap`: эти слои взаимоисключающие в актуальной спецификации. Для проверки сначала используйте один из них и сверяйте формат карты с целевой схемой.
 
-В одном Texture Set Normal Map и Height Map взаимоисключающие: укажите только одну. В Vibrant Visuals heightmap нельзя применять к текстурным объектам, например предметам; для них используйте normal map. Подробнее — в [справочнике схемы Texture Set](12_СПРАВОЧНИК_СХЕМЫ_TEXTURE_SET.md).
+## Subsurface scattering и MERS
 
-## Subsurface scattering
+Subsurface scattering (подповерхностное рассеяние) описывает ситуацию, когда свет частично проходит внутрь материала и рассеивается, прежде чем выйти наружу. Для Vibrant Visuals используется слой `metalness_emissive_roughness_subsurface` (MERS), где каналы RGBA означают Metallic, Emissive, Roughness и Subsurface соответственно.
 
-Subsurface scattering (подповерхностное рассеяние) описывает ситуацию, когда свет частично проходит внутрь материала и рассеивается, прежде чем выйти наружу. Оно полезно для отдельных материалов, но не является универсальным фильтром «сделать мягче». Избыточные значения могут сделать материал слишком светлым или восковым.
+**MER и MERS нельзя объявлять одновременно в одном Texture Set.** Подповерхностное рассеяние поддерживается Vibrant Visuals, но не RTX. В MERS металлическость и subsurface имеют взаимно исключающий характер; это не универсальный эффект «сделать мягче».
+
+## Color layer и uniform-значения
+
+Слой `color` обязателен. Его можно задать ссылкой на текстуру либо uniform-значением из четырёх каналов RGBA. Uniform MER задаётся тремя значениями. Числовые значения должны лежать в диапазоне 0–255.
+
+Пример валидного по базовым правилам Texture Set с uniform-значениями:
+
+~~~json
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": [128, 128, 128, 255],
+    "metalness_emissive_roughness": [0, 0, 128]
+  }
+}
+~~~
+
+Это пример структуры по официальной схеме, а не гарантия конкретного визуального результата в игре.
 
 ## Папки и области применения
 
 Vibrant Visuals позволяет задавать Texture Sets не только для блоков: документация указывает поддержку сущностей, мобов, частиц и предметов при размещении файлов в соответствующих каталогах resource pack. Фактический путь и имя связанного набора должны совпадать с ожидаемыми правилами игры.
 
-## Пример принципа структуры
-
-Ниже показан только концептуальный каркас, а не полный валидный Texture Set для любой версии:
-
-~~~json
-{
-  "format_version": "1.21.40",
-  "minecraft:texture_set": {
-    "color": "stone",
-    "metalness_emissive_roughness": "stone_mer"
-  }
-}
-~~~
-
-Перед использованием обязательно сверяйте названия свойств, форматы карт и допустимые значения с официальным разделом Texture Sets. Не считайте этот фрагмент универсальным готовым шаблоном.
-
-## Ограничения ссылок и ресурс-стека
-
-Texture Set может ссылаться только на изображения из того же resource pack. Определения Texture Set для одной текстурной ссылки не объединяются по слоям: более приоритетный пак заменяет определение из нижнего. Поэтому при конфликтах сначала проверяйте активный порядок паков и Content Log. Подробности — в [справочнике схемы Texture Set](12_СПРАВОЧНИК_СХЕМЫ_TEXTURE_SET.md).
+Texture Set JSON должен ссылаться только на изображения, находящиеся в том же resource pack. Если слой ссылается на отсутствующую или некорректную текстуру, игра может не использовать весь Texture Set и записать `CONTENT_ERROR` в Content Log. При использовании uniform-значений ссылочные изображения для этих слоёв не нужны.
 
 ## Методика PBR-проверки
 
 1. Начните с базовой цветовой текстуры.
 2. Добавьте Texture Set и проверьте, что он загружается.
 3. Добавляйте MER и оценивайте материал при разном освещении.
-4. Добавьте Normal Map или Height Map в соответствии с правилами схемы.
+4. Добавьте Normal Map **или** Height Map в соответствии с правилами схемы.
 5. Проверьте дневной свет, ночь, тень и разные углы обзора.
 6. Сравните материал на нескольких объектах и в нескольких биомах.
 7. Отключите остальные пакеты и повторите тест, если результат непредсказуем.
@@ -72,13 +72,14 @@ Texture Set может ссылаться только на изображени
 | Рельеф выглядит вдавленным/перевёрнутым | Ориентацию Normal Map и формат |
 | Карта не действует | Путь, имя, Texture Set JSON и поддерживаемую версию |
 | Один объект выглядит правильно, другой нет | Связанный путь текстуры и назначение материала |
+| В Content Log появился CONTENT_ERROR | Схему Texture Set, обязательный color, конфликт слоёв и наличие файлов |
 | После обновления пак перестал работать | Изменения схемы, manifest и журнал ошибок |
 
 ## Источники
 
 - [Vibrant Visuals Resource Packs — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/vvresourcepacks?view=minecraft-bedrock-stable)
-- [Introduction to Texture Sets — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/texturesetsreference/texturesetsconcepts/texturesetsintroduction?view=minecraft-bedrock-stable)
+- [Texture Set JSON and Introduction to Texture Sets — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/texturesetsreference/texturesetsconcepts/texturesetsintroduction?view=minecraft-bedrock-stable)
 - [Texture Sets Reference — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/texturesetsreference/?view=minecraft-bedrock-stable)
 - [Subsurface Scattering — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/subsurfacescattering?view=minecraft-bedrock-stable)
 
-**Статус:** обзор по официальной документации; пример каркаса требует сверки с актуальной схемой и не заявляется как протестированный.
+**Статус:** обзор по официальной документации; автоматические тесты проверяют базовые структурные ограничения, но визуальный результат не заявляется как протестированный.
