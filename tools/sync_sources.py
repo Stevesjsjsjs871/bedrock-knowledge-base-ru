@@ -9,6 +9,7 @@ SOURCES = ROOT / "sources"
 REPOS = {
     "bedrock-wiki": ("https://github.com/Bedrock-OSS/bedrock-wiki.git", "wiki"),
     "minecraft-creator": ("https://github.com/MicrosoftDocs/minecraft-creator.git", "main"),
+    "bedrock-schemas": ("https://github.com/Mojang/bedrock-schemas.git", "main"),
 }
 
 def run(args, cwd=None):

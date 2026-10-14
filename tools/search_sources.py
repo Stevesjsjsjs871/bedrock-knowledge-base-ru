@@ -10,14 +10,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "sources"
-EXTS = {".md", ".mdx", ".yml", ".yaml"}
+EXTS = {".md", ".mdx", ".yml", ".yaml", ".json", ".js", ".ts"}
 SOURCE_LABELS = {
     "bedrock-wiki": "Bedrock Wiki",
     "minecraft-creator": "Microsoft Learn / Minecraft Creator",
+    "bedrock-schemas": "Mojang Bedrock Schemas",
 }
 UPSTREAM = {
     "bedrock-wiki": "https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/",
     "minecraft-creator": "https://github.com/MicrosoftDocs/minecraft-creator/blob/main/",
+    "bedrock-schemas": "https://github.com/Mojang/bedrock-schemas/blob/main/",
 }
 
 
