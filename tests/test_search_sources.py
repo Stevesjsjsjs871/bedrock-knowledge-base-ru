@@ -31,6 +31,23 @@ class SearchSourcesTests(unittest.TestCase):
         self.assertIn("minecraft:health", results[0]["snippet"])
         self.assertTrue(results[0]["url"].startswith("https://github.com/MicrosoftDocs/"))
 
+    def test_search_indexes_json_schema_source(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            base = root / "bedrock-schemas"
+            base.mkdir()
+            source_file = base / "entity.schema.json"
+            source_file.write_text(
+                '{\n  "title": "Entity schema",\n  "componentCount": 431\n}\n',
+                encoding="utf-8",
+            )
+            with patch.object(search_sources, "SOURCES", root):
+                results = search_sources.search("componentCount", source_filter="bedrock-schemas")
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0]["source_label"], "Mojang Bedrock Schemas")
+        self.assertEqual(results[0]["line"], 3)
+        self.assertTrue(results[0]["url"].startswith("https://github.com/Mojang/bedrock-schemas/"))
+
     def test_no_match_returns_empty_list(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
