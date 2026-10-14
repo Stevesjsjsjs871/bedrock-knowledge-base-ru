@@ -139,7 +139,7 @@ def main():
     CATALOG_DIR.mkdir(parents=True, exist_ok=True)
     for source in UPSTREAM:
         source_rows = [row for row in rows if row["source"] == source]
-        filename = f"КАТАЛОГ_{source.replace('-', '_').upper()}.md"
+        filename = SOURCE_CATALOG_FILES[source]
         (CATALOG_DIR / filename).write_text(
             render_source_catalog(source, source_rows), encoding="utf-8"
         )
