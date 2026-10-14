@@ -80,7 +80,7 @@ def render_source_catalog(source, rows):
         f"- [{row['title']}]({row['url']}) — `{row['source']}/{row['path']}`"
         for row in rows
     )
-    return "\\n".join(lines) + "\\n"
+    return "\n".join(lines) + "\n"
 
 
 def render_catalog_index(rows):
@@ -106,7 +106,7 @@ def render_catalog_index(rows):
         "- [Microsoft Learn — Minecraft Creator](https://learn.microsoft.com/minecraft/creator/) · [репозиторий документации](https://github.com/MicrosoftDocs/minecraft-creator)",
         "",
     ])
-    return "\\n".join(lines)
+    return "\n".join(lines)
 
 
 def main():
@@ -179,7 +179,7 @@ def main():
             for row in group
         ] + [""]
 
-    (OUT / "ПОВТОРЫ_И_СВЯЗИ.md").write_text("\\n".join(report) + "\\n", encoding="utf-8")
+    (OUT / "ПОВТОРЫ_И_СВЯЗИ.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     print(
         f"Indexed {len(rows)} files; exact duplicate groups: {len(exact)}; "
         f"title groups: {len(title_groups)}"
