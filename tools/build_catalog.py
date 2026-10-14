@@ -15,9 +15,19 @@ UPSTREAM = {
 }
 
 def title(text, path):
+    # YAML navigation metadata often contains a generic "# section" heading.
+    # Prefer an explicit title field for YAML; use the directory name for section files.
+    if path.suffix.lower() in {".yml", ".yaml"}:
+        for line in text.splitlines()[:80]:
+            if line.lstrip().lower().startswith("title:"):
+                value = line.split(":", 1)[1].strip().strip("\\\"' ")
+                if value:
+                    return value
+        if path.stem.lower() == "section":
+            return f"{path.parent.name} — раздел навигации"
     for line in text.splitlines()[:50]:
-        m = re.match(r"^\s*#\s+(.+?)\s*#*\s*$", line)
-        if m:
+        m = re.match(r"^\\s*#\\s+(.+?)\\s*#*\\s*$", line)
+        if m and m.group(1).strip().lower() not in {"section", "overview"}:
             return m.group(1)
     return path.stem.replace("_", " ").replace("-", " ")
 
