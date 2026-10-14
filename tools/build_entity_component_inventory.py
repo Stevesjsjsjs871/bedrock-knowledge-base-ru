@@ -15,11 +15,22 @@ def parse_rows(text):
         rows.append((name.strip(), path.strip(), re.sub(r"\s+", " ", description.strip())))
     return rows
 
-def render_table(rows, status):
+CARD_STATUS = {
+    "minecraftComponent_health.md": ("Черновик", "КОМПОНЕНТ_HEALTH.md"),
+    "minecraftComponent_collision_box.md": ("Черновик", "КОМПОНЕНТ_COLLISION_BOX.md"),
+    "minecraftComponent_movement.md": ("Черновик", "КОМПОНЕНТ_MOVEMENT.md"),
+    "minecraftComponent_type_family.md": ("Черновик", "КОМПОНЕНТ_TYPE_FAMILY.md"),
+}
+
+def render_table(rows, default_status):
     lines = []
     for i, (name, path, description) in enumerate(rows, 1):
+        filename = path.rsplit("/", 1)[-1]
+        status, card = CARD_STATUS.get(filename, (default_status, None))
+        if card:
+            status = "[{}](../справочник/{})".format(status, card)
         lines.append("| {} | [{}]({}{}) | {} | {} |".format(
-            i, name, UPSTREAM, path, description.replace("|", r"\|"), status))
+            i, name, UPSTREAM, path, description.replace("|", r"\\|"), status))
     return lines
 
 def main():
