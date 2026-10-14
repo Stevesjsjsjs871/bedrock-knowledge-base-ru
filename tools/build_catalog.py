@@ -26,7 +26,7 @@ def title(text, path):
         if path.stem.lower() == "section":
             return f"{path.parent.name} — раздел навигации"
     for line in text.splitlines()[:50]:
-        m = re.match(r"^\\s*#\\s+(.+?)\\s*#*\\s*$", line)
+        m = re.match(r"^\s*#\s+(.+?)\s*#*\s*$", line)
         if m and m.group(1).strip().lower() not in {"section", "overview"}:
             return m.group(1)
     return path.stem.replace("_", " ").replace("-", " ")
