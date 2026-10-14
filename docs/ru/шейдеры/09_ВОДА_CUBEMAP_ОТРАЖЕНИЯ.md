@@ -44,7 +44,7 @@
 
 ## Источники
 
-- [Water Effects — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/watereffects?view=minecraft-bedrock-stable)
+- [Water Effects — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/watercustomization?view=minecraft-bedrock-stable)
 - [Light Sources — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/lightingcustomization?view=minecraft-bedrock-stable)
 - [Minecraft Bedrock 1.26.20 Update Notes for Creators](https://learn.microsoft.com/en-us/minecraft/creator/documents/update1.26.20?view=minecraft-bedrock-stable)
 - [Minecraft: Bedrock Edition 26.20 Changelog](https://www.minecraft.net/en-us/article/minecraft--bedrock-edition-26-20-changelog)
