@@ -64,8 +64,14 @@ GitHub Actions запускает единый набор тестов для к
 
 - [Официальные ZIP-архивы Mojang Bedrock Samples по версиям](docs/ru/справочник/КАТАЛОГ_BEDROCK_SAMPLES.md)
 
+## Собственный Performance Resource Pack
+- [Прототип Bedrock Performance RP и инструкция по проверке](packs/Bedrock-Performance-RP/README.md)
+- [Manifest прототипа](packs/Bedrock-Performance-RP/manifest.json)
+- [Валидатор manifest и UUID](tools/validate_performance_rp.py) — запуск: `python tools/validate_performance_rp.py`
+
 ## Разборы сторонних паков
 - [FPS Booster v2.4.1 и Lithium FPSbooster v5 — анализ оптимизации](docs/ru/разборы/АНАЛИЗ_FPS_BOOSTER_И_LITHIUM.md)
+- [План собственного Performance Resource Pack](docs/ru/разборы/ПЛАН_СОБСТВЕННОГО_PERFORMANCE_RP.md)
 - [Actions & Stuff 1.1.64 — анализ Resource Pack](docs/ru/разборы/РАЗБОР_ACTIONS_AND_STUFF_RP.md)
 - [Realistic Biomes 1.3 — анализ связки Behavior Pack + Resource Pack](docs/ru/разборы/РАЗБОР_REALISTIC_BIOMES_ADDON.md)
 - [План чистой реализации механик двух паков](docs/ru/разборы/ПЛАН_ЧИСТОЙ_РЕАЛИЗАЦИИ_МЕХАНИК_ДВУХ_ПАКОВ.md)
