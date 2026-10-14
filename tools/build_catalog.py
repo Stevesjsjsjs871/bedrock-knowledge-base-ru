@@ -19,6 +19,10 @@ SOURCE_LABELS = {
     "bedrock-wiki": "Bedrock Wiki",
     "minecraft-creator": "Microsoft Learn / Minecraft Creator",
 }
+SOURCE_CATALOG_FILES = {
+    "bedrock-wiki": "КАТАЛОГ_BEDROCK_WIKI.md",
+    "minecraft-creator": "КАТАЛОГ_MICROSOFT_CREATOR.md",
+}
 
 
 def title(text, path):
@@ -92,7 +96,7 @@ def render_catalog_index(rows):
         "",
     ]
     for source in UPSTREAM:
-        filename = f"КАТАЛОГ_{source.replace('-', '_').upper()}.md"
+        filename = SOURCE_CATALOG_FILES[source]
         lines.append(f"- [{SOURCE_LABELS[source]}](каталоги/{filename}) — {counts[source]} файлов")
     lines.extend([
         "",
