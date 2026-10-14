@@ -89,7 +89,7 @@ def search(query: str, limit: int = 10, source_filter: str | None = None) -> lis
             hits = sum(term in lower for term in query_tokens)
             if hits:
                 matching_lines.append((hits, index, line.strip()))
-        matching_lines.sort(key=lambda item: (-item[0], item[1]))
+        matching_lines.sort(key=lambda item: (-item[0], item[2].startswith("#"), item[1]))
         best = matching_lines[0] if matching_lines else (0, 0, "")
         relative = path.relative_to(base).as_posix()
         url = UPSTREAM[source_name] + relative
