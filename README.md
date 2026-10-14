@@ -20,6 +20,7 @@
 - [Вода, cubemap и отражения](docs/ru/шейдеры/09_ВОДА_CUBEMAP_ОТРАЖЕНИЯ.md)
 - [Texture Sets и PBR подробно](docs/ru/шейдеры/10_TEXTURE_SETS_PBR_ПОДРОБНО.md)
 - [Матрица изменений графики 26.x](docs/ru/шейдеры/11_МАТРИЦА_ИЗМЕНЕНИЙ_26X.md)
+- [Texture Set: точная схема, каналы и ошибки](docs/ru/шейдеры/12_СПРАВОЧНИК_СХЕМЫ_TEXTURE_SET.md)
 - [Карта знаний](docs/ru/КАРТА_ЗНАНИЙ.md)
 - [Архитектура Add-On](docs/ru/руководства/АРХИТЕКТУРА_ADDON.md)
 - [Behavior Pack и Resource Pack](docs/ru/руководства/BEHAVIOR_PACK_И_RESOURCE_PACK.md)
