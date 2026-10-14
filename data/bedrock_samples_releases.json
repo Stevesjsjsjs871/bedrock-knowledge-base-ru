@@ -1,0 +1,2932 @@
+{
+  "source": "https://github.com/Mojang/bedrock-samples",
+  "generated_at": "2026-10-14T17:53:19+00:00",
+  "releases": [
+    {
+      "tag": "v1.26.60.29-preview",
+      "name": "v1.26.60.29-preview",
+      "published_at": "2026-10-02T17:34:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.29-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.60.29-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.29-preview/bedrock-samples-v1.26.60.29-preview-full.zip",
+          "size_bytes": 169848451,
+          "download_count": 859
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.60.29-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.29-preview/bedrock-samples-v1.26.60.29-preview-min.zip",
+          "size_bytes": 14589660,
+          "download_count": 149
+        }
+      }
+    },
+    {
+      "tag": "v1.26.60.28-preview",
+      "name": "v1.26.60.28-preview",
+      "published_at": "2026-09-25T08:41:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.28-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.60.28-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.28-preview/bedrock-samples-v1.26.60.28-preview-full.zip",
+          "size_bytes": 169552947,
+          "download_count": 510
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.60.28-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.28-preview/bedrock-samples-v1.26.60.28-preview-min.zip",
+          "size_bytes": 14575993,
+          "download_count": 107
+        }
+      }
+    },
+    {
+      "tag": "v1.26.60.24-preview",
+      "name": "v1.26.60.24-preview",
+      "published_at": "2026-09-16T19:24:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.24-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.60.24-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.24-preview/bedrock-samples-v1.26.60.24-preview-full.zip",
+          "size_bytes": 169524757,
+          "download_count": 553
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.60.24-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.24-preview/bedrock-samples-v1.26.60.24-preview-min.zip",
+          "size_bytes": 14547803,
+          "download_count": 98
+        }
+      }
+    },
+    {
+      "tag": "v1.26.50.4",
+      "name": "v1.26.50.4",
+      "published_at": "2026-09-16T04:29:08Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.50.4",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.50.4-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.4/bedrock-samples-v1.26.50.4-full.zip",
+          "size_bytes": 169385576,
+          "download_count": 4933
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.50.4-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.4/bedrock-samples-v1.26.50.4-min.zip",
+          "size_bytes": 14408778,
+          "download_count": 1139
+        }
+      }
+    },
+    {
+      "tag": "v1.26.50.27-preview",
+      "name": "v1.26.50.27-preview",
+      "published_at": "2026-08-25T16:53:52Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.50.27-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.50.27-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.27-preview/bedrock-samples-v1.26.50.27-preview-full.zip",
+          "size_bytes": 169306365,
+          "download_count": 1416
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.50.27-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.27-preview/bedrock-samples-v1.26.50.27-preview-min.zip",
+          "size_bytes": 14329567,
+          "download_count": 268
+        }
+      }
+    },
+    {
+      "tag": "v1.26.50.26-preview",
+      "name": "v1.26.50.26-preview",
+      "published_at": "2026-08-21T19:49:37Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.50.26-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.50.26-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.26-preview/bedrock-samples-v1.26.50.26-preview-full.zip",
+          "size_bytes": 169306363,
+          "download_count": 406
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.50.26-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.26-preview/bedrock-samples-v1.26.50.26-preview-min.zip",
+          "size_bytes": 14329565,
+          "download_count": 95
+        }
+      }
+    },
+    {
+      "tag": "v1.26.50.25-preview",
+      "name": "v1.26.50.25-preview",
+      "published_at": "2026-08-11T19:21:03Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.50.25-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.50.25-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.25-preview/bedrock-samples-v1.26.50.25-preview-full.zip",
+          "size_bytes": 156463815,
+          "download_count": 584
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.50.25-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.25-preview/bedrock-samples-v1.26.50.25-preview-min.zip",
+          "size_bytes": 14272233,
+          "download_count": 134
+        }
+      }
+    },
+    {
+      "tag": "v1.26.40.05",
+      "name": "v1.26.40.05",
+      "published_at": "2026-08-11T19:22:23Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.40.05",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.40.05-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.05/bedrock-samples-v1.26.40.05-full.zip",
+          "size_bytes": 158098390,
+          "download_count": 4851
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.40.05-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.05/bedrock-samples-v1.26.40.05-min.zip",
+          "size_bytes": 15765995,
+          "download_count": 1242
+        }
+      }
+    },
+    {
+      "tag": "v1.26.40.27-preview",
+      "name": "v1.26.40.27-preview",
+      "published_at": "2026-06-23T17:43:09Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.40.27-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.40.27-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.27-preview/bedrock-samples-v1.26.40.27-preview-full.zip",
+          "size_bytes": 156630948,
+          "download_count": 3623
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.40.27-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.27-preview/bedrock-samples-v1.26.40.27-preview-min.zip",
+          "size_bytes": 14881970,
+          "download_count": 676
+        }
+      }
+    },
+    {
+      "tag": "v1.26.40.26-preview",
+      "name": "v1.26.40.26-preview",
+      "published_at": "2026-06-17T17:12:52Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.40.26-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.40.26-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.26-preview/bedrock-samples-v1.26.40.26-preview-full.zip",
+          "size_bytes": 154559645,
+          "download_count": 901
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.40.26-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.26-preview/bedrock-samples-v1.26.40.26-preview-min.zip",
+          "size_bytes": 14855429,
+          "download_count": 192
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.5",
+      "name": "v1.26.30.5",
+      "published_at": "2026-06-16T16:40:46Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.5",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.5-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.5/bedrock-samples-v1.26.30.5-full.zip",
+          "size_bytes": 153877715,
+          "download_count": 10472
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.5-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.5/bedrock-samples-v1.26.30.5-min.zip",
+          "size_bytes": 14489889,
+          "download_count": 2660
+        }
+      }
+    },
+    {
+      "tag": "v1.26.40.22-preview",
+      "name": "v1.26.40.22-preview",
+      "published_at": "2026-06-09T16:55:26Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.40.22-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.40.22-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.22-preview/bedrock-samples-v1.26.40.22-preview-full.zip",
+          "size_bytes": 154566328,
+          "download_count": 615
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.40.22-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.22-preview/bedrock-samples-v1.26.40.22-preview-min.zip",
+          "size_bytes": 14853859,
+          "download_count": 126
+        }
+      }
+    },
+    {
+      "tag": "v1.26.40.20-preview",
+      "name": "v1.26.40.20-preview",
+      "published_at": "2026-06-02T16:12:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.40.20-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.40.20-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.20-preview/bedrock-samples-v1.26.40.20-preview-full.zip",
+          "size_bytes": 154532405,
+          "download_count": 589
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.40.20-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.40.20-preview/bedrock-samples-v1.26.40.20-preview-min.zip",
+          "size_bytes": 14819926,
+          "download_count": 119
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.32-preview",
+      "name": "v1.26.30.32-preview",
+      "published_at": "2026-05-26T17:11:04Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.32-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.32-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.32-preview/bedrock-samples-v1.26.30.32-preview-full.zip",
+          "size_bytes": 154317831,
+          "download_count": 899
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.32-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.32-preview/bedrock-samples-v1.26.30.32-preview-min.zip",
+          "size_bytes": 14500269,
+          "download_count": 174
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.29-preview",
+      "name": "v1.26.30.29-preview",
+      "published_at": "2026-05-19T17:26:59Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.29-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.29-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.29-preview/bedrock-samples-v1.26.30.29-preview-full.zip",
+          "size_bytes": 154295874,
+          "download_count": 506
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.29-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.29-preview/bedrock-samples-v1.26.30.29-preview-min.zip",
+          "size_bytes": 14478312,
+          "download_count": 175
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.28-preview",
+      "name": "v1.26.30.28-preview",
+      "published_at": "2026-05-12T16:06:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.28-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.28-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.28-preview/bedrock-samples-v1.26.30.28-preview-full.zip",
+          "size_bytes": 152813919,
+          "download_count": 477
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.28-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.28-preview/bedrock-samples-v1.26.30.28-preview-min.zip",
+          "size_bytes": 14454954,
+          "download_count": 135
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.27-preview",
+      "name": "v1.26.30.27-preview",
+      "published_at": "2026-05-06T16:40:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.27-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.27-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.27-preview/bedrock-samples-v1.26.30.27-preview-full.zip",
+          "size_bytes": 150591000,
+          "download_count": 393
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.27-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.27-preview/bedrock-samples-v1.26.30.27-preview-min.zip",
+          "size_bytes": 14357001,
+          "download_count": 91
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.4",
+      "name": "v1.26.20.4",
+      "published_at": "2026-05-05T15:52:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.4",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.4-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.4/bedrock-samples-v1.26.20.4-full.zip",
+          "size_bytes": 145823307,
+          "download_count": 4999
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.4-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.4/bedrock-samples-v1.26.20.4-min.zip",
+          "size_bytes": 13824517,
+          "download_count": 1194
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.25-preview",
+      "name": "v1.26.30.25-preview",
+      "published_at": "2026-04-30T16:34:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.25-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.25-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.25-preview/bedrock-samples-v1.26.30.25-preview-full.zip",
+          "size_bytes": 147310616,
+          "download_count": 424
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.25-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.25-preview/bedrock-samples-v1.26.30.25-preview-min.zip",
+          "size_bytes": 14308792,
+          "download_count": 97
+        }
+      }
+    },
+    {
+      "tag": "v1.26.30.20-preview",
+      "name": "v1.26.30.20-preview",
+      "published_at": "2026-04-21T15:58:37Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.30.20-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.30.20-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.20-preview/bedrock-samples-v1.26.30.20-preview-full.zip",
+          "size_bytes": 147233222,
+          "download_count": 623
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.30.20-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.30.20-preview/bedrock-samples-v1.26.30.20-preview-min.zip",
+          "size_bytes": 14252844,
+          "download_count": 144
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.27-preview",
+      "name": "v1.26.20.27-preview",
+      "published_at": "2026-04-14T16:08:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.27-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.27-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.27-preview/bedrock-samples-v1.26.20.27-preview-full.zip",
+          "size_bytes": 145854499,
+          "download_count": 608
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.27-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.27-preview/bedrock-samples-v1.26.20.27-preview-min.zip",
+          "size_bytes": 13825290,
+          "download_count": 118
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.23-preview",
+      "name": "v1.26.20.23-preview",
+      "published_at": "2026-03-31T16:40:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.23-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.23-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.23-preview/bedrock-samples-v1.26.20.23-preview-full.zip",
+          "size_bytes": 145907146,
+          "download_count": 1098
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.23-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.23-preview/bedrock-samples-v1.26.20.23-preview-min.zip",
+          "size_bytes": 13908356,
+          "download_count": 229
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.22-preview",
+      "name": "v1.26.20.22-preview",
+      "published_at": "2026-03-25T16:30:37Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.22-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.22-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.22-preview/bedrock-samples-v1.26.20.22-preview-full.zip",
+          "size_bytes": 144135206,
+          "download_count": 476
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.22-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.22-preview/bedrock-samples-v1.26.20.22-preview-min.zip",
+          "size_bytes": 13849287,
+          "download_count": 113
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.26",
+      "name": "v1.26.20.26",
+      "published_at": "2026-04-08T16:31:23Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.26",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.26-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.26/bedrock-samples-v1.26.20.26-full.zip",
+          "size_bytes": 143752655,
+          "download_count": 981
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.26-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.26/bedrock-samples-v1.26.20.26-min.zip",
+          "size_bytes": 13614783,
+          "download_count": 211
+        }
+      }
+    },
+    {
+      "tag": "v1.26.10.4",
+      "name": "v1.26.10.4",
+      "published_at": "2026-03-24T16:56:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.4",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.10.4-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.4/bedrock-samples-v1.26.10.4-full.zip",
+          "size_bytes": 143752655,
+          "download_count": 4592
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.10.4-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.4/bedrock-samples-v1.26.10.4-min.zip",
+          "size_bytes": 13614783,
+          "download_count": 902
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.21-preview",
+      "name": "v1.26.20.21-preview",
+      "published_at": "2026-03-17T16:37:18Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.21-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.21-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.21-preview/bedrock-samples-v1.26.20.21-preview-full.zip",
+          "size_bytes": 143973344,
+          "download_count": 229
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.21-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.21-preview/bedrock-samples-v1.26.20.21-preview-min.zip",
+          "size_bytes": 13692840,
+          "download_count": 56
+        }
+      }
+    },
+    {
+      "tag": "v1.26.20.20-preview",
+      "name": "v1.26.20.20-preview",
+      "published_at": "2026-03-10T16:22:15Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.20.20-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.20.20-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.20-preview/bedrock-samples-v1.26.20.20-preview-full.zip",
+          "size_bytes": 143926903,
+          "download_count": 264
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.20.20-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.20.20-preview/bedrock-samples-v1.26.20.20-preview-min.zip",
+          "size_bytes": 13646486,
+          "download_count": 60
+        }
+      }
+    },
+    {
+      "tag": "v1.26.10.26-preview",
+      "name": "v1.26.10.26-preview",
+      "published_at": "2026-03-04T17:06:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.26-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.10.26-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.26-preview/bedrock-samples-v1.26.10.26-preview-full.zip",
+          "size_bytes": 143778365,
+          "download_count": 376
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.10.26-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.26-preview/bedrock-samples-v1.26.10.26-preview-min.zip",
+          "size_bytes": 13619658,
+          "download_count": 94
+        }
+      }
+    },
+    {
+      "tag": "v1.26.10.25-preview",
+      "name": "v1.26.10.25-preview",
+      "published_at": "2026-02-24T17:15:15Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.25-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.10.25-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.25-preview/bedrock-samples-v1.26.10.25-preview-full.zip",
+          "size_bytes": 143221476,
+          "download_count": 490
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.10.25-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.25-preview/bedrock-samples-v1.26.10.25-preview-min.zip",
+          "size_bytes": 13062773,
+          "download_count": 114
+        }
+      }
+    },
+    {
+      "tag": "v1.26.10.24-preview",
+      "name": "v1.26.10.24-preview",
+      "published_at": "2026-02-17T17:10:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.24-preview",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.10.24-preview-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.24-preview/bedrock-samples-v1.26.10.24-preview-full.zip",
+          "size_bytes": 141765548,
+          "download_count": 515
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.10.24-preview-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.10.24-preview/bedrock-samples-v1.26.10.24-preview-min.zip",
+          "size_bytes": 13055914,
+          "download_count": 114
+        }
+      }
+    },
+    {
+      "tag": "v1.26.10.23-preview.1",
+      "name": "v1.26.10.23-preview",
+      "published_at": "2026-02-11T20:13:43Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.23-preview.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.0.2",
+      "name": "v1.26.0.2",
+      "published_at": "2026-02-10T17:33:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.0.2",
+      "assets": {
+        "full": {
+          "name": "bedrock-samples-v1.26.0.2-full.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.0.2/bedrock-samples-v1.26.0.2-full.zip",
+          "size_bytes": 146598124,
+          "download_count": 3971
+        },
+        "min": {
+          "name": "bedrock-samples-v1.26.0.2-min.zip",
+          "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.0.2/bedrock-samples-v1.26.0.2-min.zip",
+          "size_bytes": 20568614,
+          "download_count": 834
+        }
+      }
+    },
+    {
+      "tag": "v1.26.10.21-preview",
+      "name": "v1.26.10.21-preview",
+      "published_at": "2026-02-03T17:33:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.10.20-preview",
+      "name": "v1.26.10.20-preview",
+      "published_at": "2026-01-27T17:09:24Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.10.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.0.29-preview",
+      "name": "v1.26.0.29-preview",
+      "published_at": "2026-01-20T16:59:54Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.0.29-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.0.28-preview",
+      "name": "v1.26.0.28-preview",
+      "published_at": "2026-01-13T16:52:15Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.0.28-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.0.27-preview",
+      "name": "v1.26.0.27-preview",
+      "published_at": "2026-01-07T17:29:11Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.0.27-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.0.25-preview",
+      "name": "v1.26.0.25-preview",
+      "published_at": "2025-12-10T17:31:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.0.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.3",
+      "name": "v1.21.130.3",
+      "published_at": "2025-12-09T17:35:25Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.26.0.23-preview",
+      "name": "v1.26.0.23-preview",
+      "published_at": "2025-12-03T17:19:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.0.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.28-preview",
+      "name": "v1.21.130.28-preview",
+      "published_at": "2025-11-18T17:49:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.28-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.27-preview",
+      "name": "v1.21.130.27-preview",
+      "published_at": "2025-11-11T18:01:31Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.27-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.26-preview",
+      "name": "v1.21.130.26-preview",
+      "published_at": "2025-11-04T18:08:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.24-preview",
+      "name": "v1.21.130.24-preview",
+      "published_at": "2025-10-29T16:03:02Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.4",
+      "name": "v1.21.120.4",
+      "published_at": "2025-10-28T16:17:53Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.4",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.22-preview",
+      "name": "v1.21.130.22-preview",
+      "published_at": "2025-10-22T15:58:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.130.20-preview",
+      "name": "v1.21.130.20-preview",
+      "published_at": "2025-10-14T15:57:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.130.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.25-preview",
+      "name": "v1.21.120.25-preview",
+      "published_at": "2025-10-07T16:22:00Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.24-preview",
+      "name": "v1.21.120.24-preview",
+      "published_at": "2025-10-01T16:38:28Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.2",
+      "name": "v1.21.110.2",
+      "published_at": "2025-09-30T15:54:49Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.2",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.23-preview",
+      "name": "v1.21.120.23-preview",
+      "published_at": "2025-09-23T16:20:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.22-preview",
+      "name": "v1.21.120.22-preview",
+      "published_at": "2025-09-16T16:21:05Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.21-preview",
+      "name": "v1.21.120.21-preview",
+      "published_at": "2025-09-09T17:05:19Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.120.20-preview",
+      "name": "v1.21.120.20-preview",
+      "published_at": "2025-09-03T17:08:05Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.120.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.26-preview",
+      "name": "v1.21.110.26-preview",
+      "published_at": "2025-08-26T16:50:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.25a-preview",
+      "name": "v1.21.110.25-preview",
+      "published_at": "2025-08-19T16:36:35Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.25a-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.24-preview",
+      "name": "v1.21.110.24-preview",
+      "published_at": "2025-08-12T16:00:49Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.23-preview",
+      "name": "v1.21.110.23-preview",
+      "published_at": "2025-08-06T17:14:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.100.6",
+      "name": "v1.21.100.6",
+      "published_at": "2025-08-05T17:38:13Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.100.6",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.22-preview",
+      "name": "v1.21.110.22-preview",
+      "published_at": "2025-07-30T16:21:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.110.20-preview",
+      "name": "v1.21.110.20-preview",
+      "published_at": "2025-07-22T16:20:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.110.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.100.24-preview",
+      "name": "v1.21.100.24-preview",
+      "published_at": "2025-07-16T16:16:12Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.100.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.100.23-preview",
+      "name": "v1.21.100.23-preview",
+      "published_at": "2025-07-01T16:20:21Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.100.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.100.22-preview",
+      "name": "v1.21.100.22-preview",
+      "published_at": "2025-06-25T15:58:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.100.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.100.21-preview",
+      "name": "v1.21.100.21-preview",
+      "published_at": "2025-06-18T16:15:19Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.100.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.3",
+      "name": "v1.21.90.3",
+      "published_at": "2025-06-18T12:22:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.100.20-preview",
+      "name": "v1.21.100.20-preview",
+      "published_at": "2025-06-10T15:54:50Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.100.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.28-preview",
+      "name": "v1.21.90.28-preview",
+      "published_at": "2025-06-02T22:07:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.28-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.27-preview",
+      "name": "v1.21.90.27-preview",
+      "published_at": "2025-05-27T17:19:28Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.27-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.26-preview2",
+      "name": "v1.21.90.26-preview",
+      "published_at": "2025-05-20T16:00:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.26-preview2",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.25-preview",
+      "name": "v1.21.90.25-preview",
+      "published_at": "2025-05-13T16:04:44Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.23-preview",
+      "name": "v1.21.90.23-preview",
+      "published_at": "2025-05-07T16:02:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.3",
+      "name": "v1.21.80.3",
+      "published_at": "2025-05-06T16:14:30Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "1.21.90.21-preview",
+      "name": "1.21.90.21-preview",
+      "published_at": "2025-04-29T16:03:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/1.21.90.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.90.20-preview",
+      "name": "v1.21.90.20-preview",
+      "published_at": "2025-04-23T11:32:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.90.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.28-preview",
+      "name": "v1.21.80.28-preview",
+      "published_at": "2025-04-15T17:45:08Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.28-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.27-preview",
+      "name": "v1.21.80.27-preview",
+      "published_at": "2025-04-08T17:36:02Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.27-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.25-preview",
+      "name": "v1.21.80.25-preview",
+      "published_at": "2025-04-03T16:00:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.22-preview",
+      "name": "v1.21.80.22-preview",
+      "published_at": "2025-03-26T16:18:09Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.3",
+      "name": "v1.21.70.3",
+      "published_at": "2025-03-25T16:15:41Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.21-preview",
+      "name": "v1.21.80.21-preview",
+      "published_at": "2025-03-18T16:39:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.80.20-preview",
+      "name": "v1.21.80.20-preview",
+      "published_at": "2025-03-11T16:15:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.80.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.26-preview",
+      "name": "v1.21.70.26-preview",
+      "published_at": "2025-03-05T20:37:50Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.25-preview",
+      "name": "v1.21.70.25-preview",
+      "published_at": "2025-02-26T17:44:43Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.24-preview",
+      "name": "v1.21.70.24-preview",
+      "published_at": "2025-02-19T17:10:23Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.23-preview",
+      "name": "v1.21.70.23-preview",
+      "published_at": "2025-02-12T18:03:51Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.10",
+      "name": "v1.21.60.10",
+      "published_at": "2025-02-11T17:27:39Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.10",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.22-preview",
+      "name": "v1.21.70.22-preview",
+      "published_at": "2025-02-05T17:47:23Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.70.20-preview",
+      "name": "v1.21.70.20-preview",
+      "published_at": "2025-01-30T16:59:09Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.70.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.28-preview",
+      "name": "v1.21.60.28-preview",
+      "published_at": "2025-01-22T17:36:51Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.28-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.27-preview",
+      "name": "v1.21.60.27-preview",
+      "published_at": "2025-01-15T17:03:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.27-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.25-preview",
+      "name": "v1.21.60.25-preview",
+      "published_at": "2025-01-08T17:03:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.24-preview",
+      "name": "v1.21.60.24-preview",
+      "published_at": "2024-12-12T17:34:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.23-preview",
+      "name": "v1.21.60.23-preview",
+      "published_at": "2024-12-04T17:27:21Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.7",
+      "name": "v1.21.50.7",
+      "published_at": "2024-12-03T16:46:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.7",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.60.21-preview",
+      "name": "v1.21.60.21-preview",
+      "published_at": "2024-11-20T20:29:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.60.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.29-preview",
+      "name": "v1.21.50.29-preview",
+      "published_at": "2024-11-13T17:16:24Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.29-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.28-preview",
+      "name": "v1.21.50.28-preview",
+      "published_at": "2024-11-07T17:28:05Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.28-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.26-preview",
+      "name": "v1.21.50.26-preview",
+      "published_at": "2024-10-30T16:47:30Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.25-preview",
+      "name": "v1.21.50.25-preview",
+      "published_at": "2024-10-23T15:53:26Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.40.3",
+      "name": "v1.21.40.3",
+      "published_at": "2024-10-22T16:27:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.40.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.24-preview",
+      "name": "v1.21.50.24-preview",
+      "published_at": "2024-10-17T16:17:25Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.50.20-preview",
+      "name": "v1.21.50.20-preview",
+      "published_at": "2024-10-09T16:35:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.50.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.40.25-preview",
+      "name": "v1.21.40.25-preview",
+      "published_at": "2024-10-03T16:22:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.40.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.40.23-preview",
+      "name": "v1.21.40.23-preview",
+      "published_at": "2024-09-25T16:07:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.40.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.40.22-preview",
+      "name": "v1.21.40.22-preview",
+      "published_at": "2024-09-18T16:18:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.40.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.30.3",
+      "name": "v1.21.30.3",
+      "published_at": "2024-09-17T16:15:29Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.30.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.40.21-preview",
+      "name": "v1.21.40.21-preview",
+      "published_at": "2024-09-11T16:09:05Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.40.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.40.20-preview",
+      "name": "v1.21.40.20-preview",
+      "published_at": "2024-09-04T16:03:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.40.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.30.25-preview",
+      "name": "v1.21.30.25-preview",
+      "published_at": "2024-08-28T16:21:16Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.30.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.30.24-preview",
+      "name": "v1.21.30.24-preview",
+      "published_at": "2024-08-21T16:09:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.30.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.30.23-preview",
+      "name": "v1.21.30.23-preview",
+      "published_at": "2024-08-15T16:09:06Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.30.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.20.3",
+      "name": "v1.21.20.3",
+      "published_at": "2024-08-13T16:38:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.20.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.30.22-preview",
+      "name": "v1.21.30.22-preview",
+      "published_at": "2024-08-07T16:46:47Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.30.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.30.21-preview",
+      "name": "v1.21.30.21-preview",
+      "published_at": "2024-08-01T16:45:44Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.30.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.20.24-preview",
+      "name": "v1.21.20.24-preview",
+      "published_at": "2024-07-25T15:52:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.20.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.20.23-preview",
+      "name": "v1.21.20.23-preview",
+      "published_at": "2024-07-17T16:19:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.20.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.20.22-preview",
+      "name": "v1.21.20.22-preview",
+      "published_at": "2024-07-10T16:25:59Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.20.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.20.21-preview",
+      "name": "v1.21.20.21-preview",
+      "published_at": "2024-06-27T16:05:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.20.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.10.24-preview",
+      "name": "v1.21.10.24-preview",
+      "published_at": "2024-06-19T16:29:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.10.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.3",
+      "name": "v1.21.0.3",
+      "published_at": "2024-06-13T17:11:00Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.10.23-preview",
+      "name": "v1.21.10.23-preview",
+      "published_at": "2024-06-12T16:20:41Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.10.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.10.22-preview",
+      "name": "v1.21.10.22-preview",
+      "published_at": "2024-06-05T15:59:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.10.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.10.21-preview",
+      "name": "v1.21.10.21-preview",
+      "published_at": "2024-05-29T16:09:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.10.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.10.20-preview",
+      "name": "v1.21.10.20-preview",
+      "published_at": "2024-05-22T15:50:25Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.10.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.26-preview",
+      "name": "v1.21.0.26-preview",
+      "published_at": "2024-05-15T16:18:27Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.25-preview.1",
+      "name": "v1.21.0.25-preview.1",
+      "published_at": "2024-05-08T17:19:56Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.25-preview.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.24-preview",
+      "name": "v1.21.0.24-preview",
+      "published_at": "2024-05-01T16:24:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.23-preview",
+      "name": "v1.21.0.23-preview",
+      "published_at": "2024-04-24T16:14:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.80.5",
+      "name": "v1.20.80.5",
+      "published_at": "2024-04-23T16:25:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.80.5",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.22-preview",
+      "name": "v1.21.0.22-preview",
+      "published_at": "2024-04-18T16:03:55Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.21-preview",
+      "name": "v1.21.0.21-preview",
+      "published_at": "2024-04-10T17:16:03Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.21.0.20-preview",
+      "name": "v1.21.0.20-preview",
+      "published_at": "2024-04-03T16:19:12Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.21.0.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.80.24-preview",
+      "name": "v1.20.80.24-preview",
+      "published_at": "2024-03-27T16:32:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.80.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.80.23-preview",
+      "name": "v1.20.80.23-preview",
+      "published_at": "2024-03-20T16:14:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.80.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.80.22-preview",
+      "name": "v1.20.80.22-preview",
+      "published_at": "2024-03-14T16:44:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.80.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.70.6",
+      "name": "v1.20.70.6",
+      "published_at": "2024-03-12T16:25:28Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.70.6",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.80.21-preview",
+      "name": "v1.20.80.21-preview",
+      "published_at": "2024-03-06T18:00:51Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.80.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.80.20-preview",
+      "name": "v1.20.80.20-preview",
+      "published_at": "2024-02-29T17:25:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.80.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.70.25-preview",
+      "name": "v1.20.70.25-preview",
+      "published_at": "2024-02-22T17:35:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.70.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.70.24-preview",
+      "name": "v1.20.70.24-preview",
+      "published_at": "2024-02-15T17:11:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.70.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.70.22-preview",
+      "name": "v1.20.70.22-preview",
+      "published_at": "2024-02-07T17:17:27Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.70.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.4",
+      "name": "v1.20.60.4",
+      "published_at": "2024-02-06T17:44:59Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.4",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.70.21-preview",
+      "name": "v1.20.70.21-preview",
+      "published_at": "2024-01-31T19:35:47Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.70.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.70.20-preview",
+      "name": "v1.20.70.20-preview",
+      "published_at": "2024-01-24T18:48:59Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.70.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.26-preview",
+      "name": "v1.20.60.26-preview",
+      "published_at": "2024-01-18T18:32:26Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.25-preview",
+      "name": "v1.20.60.25-preview",
+      "published_at": "2024-01-10T17:47:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.24-preview",
+      "name": "v1.20.60.24-preview",
+      "published_at": "2024-01-04T17:15:12Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.23-preview",
+      "name": "v1.20.60.23-preview",
+      "published_at": "2023-12-13T17:19:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.22-preview",
+      "name": "v1.20.60.22-preview",
+      "published_at": "2023-12-06T19:28:56Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.50.3",
+      "name": "v1.20.50.3",
+      "published_at": "2023-12-05T18:04:51Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.50.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.21-preview",
+      "name": "v1.20.60.21-preview",
+      "published_at": "2023-11-29T17:19:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.60.20-preview",
+      "name": "v1.20.60.20-preview",
+      "published_at": "2023-11-15T18:02:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.60.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.50.24-preview",
+      "name": "v1.20.50.24-preview",
+      "published_at": "2023-11-08T16:54:56Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.50.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.50.23-preview",
+      "name": "v1.20.50.23-preview",
+      "published_at": "2023-11-02T16:17:24Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.50.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.50.22-preview",
+      "name": "v1.20.50.22-preview",
+      "published_at": "2023-10-25T17:14:46Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.50.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.40.1",
+      "name": "v1.20.40.1",
+      "published_at": "2023-10-24T16:02:34Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.40.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.50.21-preview",
+      "name": "v1.20.50.21-preview",
+      "published_at": "2023-10-18T16:13:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.50.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.50.20-preview",
+      "name": "v1.20.50.20-preview",
+      "published_at": "2023-10-11T16:02:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.50.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.40.24-preview",
+      "name": "v1.20.40.24-preview",
+      "published_at": "2023-10-04T19:14:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.40.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.40.23-preview",
+      "name": "v1.20.40.23-preview",
+      "published_at": "2023-09-27T15:58:23Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.40.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.40.22-preview",
+      "name": "v1.20.40.22-preview",
+      "published_at": "2023-09-20T16:24:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.40.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.30.1",
+      "name": "v1.20.30.1",
+      "published_at": "2023-09-19T16:13:24Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.30.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.40.21-preview",
+      "name": "v1.20.40.21-preview",
+      "published_at": "2023-09-13T16:46:27Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.40.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.40.20-preview",
+      "name": "v1.20.40.20-preview",
+      "published_at": "2023-09-07T16:45:55Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.40.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.30.25-preview",
+      "name": "v1.20.30.25-preview",
+      "published_at": "2023-08-31T16:10:20Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.30.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.30.24-preview",
+      "name": "v1.20.30.24-preview",
+      "published_at": "2023-08-23T16:24:39Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.30.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.30.22-preview",
+      "name": "v1.20.30.22-preview",
+      "published_at": "2023-08-17T16:00:01Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.30.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.30.21-preview",
+      "name": "v1.20.30.21-preview",
+      "published_at": "2023-08-09T19:49:10Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.30.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.30.20-preview",
+      "name": "v1.20.30.20-preview",
+      "published_at": "2023-08-03T16:01:58Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.30.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.20.23-preview",
+      "name": "v1.20.20.23-preview",
+      "published_at": "2023-07-26T16:00:43Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.20.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.20.22-preview",
+      "name": "v1.20.20.22-preview",
+      "published_at": "2023-07-20T15:58:03Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.20.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.20.21-preview",
+      "name": "v1.20.20.21-preview",
+      "published_at": "2023-07-12T16:09:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.20.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.10.1",
+      "name": "v1.20.10.1",
+      "published_at": "2023-07-11T17:01:57Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.10.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.20.20-preview",
+      "name": "v1.20.20.20-preview",
+      "published_at": "2023-06-28T15:37:12Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.20.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.10.24-preview",
+      "name": "v1.20.10.24-preview",
+      "published_at": "2023-06-21T20:48:48Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.10.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.10.23-preview",
+      "name": "v1.20.10.23-preview",
+      "published_at": "2023-06-14T17:14:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.10.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.1",
+      "name": "v1.20.0.1",
+      "published_at": "2023-06-07T16:15:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.10.21-preview",
+      "name": "v1.20.10.21-preview",
+      "published_at": "2023-06-01T16:39:34Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.10.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.10.20-preview",
+      "name": "v1.20.10.20-preview",
+      "published_at": "2023-05-25T16:45:42Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.10.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.25-preview",
+      "name": "v1.20.0.25-preview",
+      "published_at": "2023-05-18T17:59:19Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.24-preview",
+      "name": "v1.20.0.24-preview",
+      "published_at": "2023-05-11T16:16:53Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.23-preview",
+      "name": "v1.20.0.23-preview",
+      "published_at": "2023-05-03T16:44:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.22-preview",
+      "name": "v1.20.0.22-preview",
+      "published_at": "2023-04-26T16:36:35Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.80.2",
+      "name": "v1.19.80.2",
+      "published_at": "2023-04-26T16:18:32Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.80.2",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.21-preview",
+      "name": "v1.20.0.21-preview",
+      "published_at": "2023-04-19T16:43:13Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.20.0.20-preview",
+      "name": "v1.20.0.20-preview",
+      "published_at": "2023-04-12T17:21:44Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.20.0.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.80.24-preview",
+      "name": "v1.19.80.24-preview",
+      "published_at": "2023-04-05T20:30:24Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.80.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.80.23-preview",
+      "name": "v1.19.80.23-preview",
+      "published_at": "2023-03-30T18:05:29Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.80.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.80.22-preview",
+      "name": "v1.19.80.22-preview",
+      "published_at": "2023-03-22T17:50:43Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.80.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.80.21-preview",
+      "name": "v1.19.80.21-preview",
+      "published_at": "2023-03-15T21:04:41Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.80.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.2",
+      "name": "v1.19.70.2",
+      "published_at": "2023-03-14T16:45:15Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.2",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.80.20-preview",
+      "name": "v1.19.80.20-preview",
+      "published_at": "2023-03-08T17:03:24Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.80.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.26-preview",
+      "name": "v1.19.70.26-preview",
+      "published_at": "2023-03-01T18:13:04Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.24-preview",
+      "name": "v1.19.70.24-preview",
+      "published_at": "2023-02-23T17:15:04Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.23-preview",
+      "name": "v1.19.70.23-preview",
+      "published_at": "2023-02-15T16:40:11Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.22-preview",
+      "name": "v1.19.70.22-preview",
+      "published_at": "2023-02-08T17:42:36Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.3",
+      "name": "v1.19.60.3",
+      "published_at": "2023-02-07T19:34:56Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.3",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.21-preview",
+      "name": "v1.19.70.21-preview",
+      "published_at": "2023-02-01T16:57:32Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.21-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.70.20-preview",
+      "name": "v1.19.70.20-preview",
+      "published_at": "2023-01-26T18:01:40Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.70.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.27-preview",
+      "name": "v1.19.60.27-preview",
+      "published_at": "2023-01-19T17:23:18Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.27-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.26-preview",
+      "name": "v1.19.60.26-preview",
+      "published_at": "2023-01-11T18:52:06Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.26-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.25-preview",
+      "name": "v1.19.60.25-preview",
+      "published_at": "2023-01-05T16:57:10Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.24-preview",
+      "name": "v1.19.60.24-preview",
+      "published_at": "2022-12-14T16:47:57Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.23-preview",
+      "name": "v1.19.60.23-preview",
+      "published_at": "2022-12-07T17:19:07Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.22-preview",
+      "name": "v1.19.60.22-preview",
+      "published_at": "2022-12-01T16:49:15Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.2",
+      "name": "v1.19.50.2",
+      "published_at": "2022-11-29T17:31:35Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.2",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.60.20-preview",
+      "name": "v1.19.60.20-preview",
+      "published_at": "2022-11-23T19:04:17Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.60.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.25-preview",
+      "name": "v1.19.50.25-preview",
+      "published_at": "2022-11-16T16:49:14Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.25-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.24-preview",
+      "name": "v1.19.50.24-preview",
+      "published_at": "2022-11-09T16:42:38Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.23-preview",
+      "name": "v1.19.50.23-preview",
+      "published_at": "2022-11-03T16:23:30Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.22-preview",
+      "name": "v1.19.50.22-preview",
+      "published_at": "2022-10-26T16:01:37Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.22-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.40.2",
+      "name": "v1.19.40.2",
+      "published_at": "2022-10-25T16:36:47Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.40.2",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.21-preview.1",
+      "name": "v1.19.50.21 preview",
+      "published_at": "2022-10-19T16:47:11Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.21-preview.1",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.50.20-preview",
+      "name": "v1.19.50.20 preview",
+      "published_at": "2022-10-13T16:45:45Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.50.20-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.40.24-preview",
+      "name": "v1.19.40.24-preview",
+      "published_at": "2022-10-05T16:12:55Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.40.24-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.40.23-preview",
+      "name": "v1.19.40.23-preview",
+      "published_at": "2022-10-04T15:33:23Z",
+      "is_prerelease": true,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.40.23-preview",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    },
+    {
+      "tag": "v1.19.30",
+      "name": "v1.19.30",
+      "published_at": "2022-09-23T13:34:43Z",
+      "is_prerelease": false,
+      "is_draft": false,
+      "html_url": "https://github.com/Mojang/bedrock-samples/releases/tag/v1.19.30",
+      "assets": {
+        "full": null,
+        "min": null
+      }
+    }
+  ]
+}
