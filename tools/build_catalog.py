@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "sources"
 OUT = ROOT / "docs" / "ru"
 EXTS = {".md", ".mdx", ".yml", ".yaml"}
+MIN_CATALOG_ROWS = 100
 UPSTREAM = {
     "bedrock-wiki": "https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/",
     "minecraft-creator": "https://github.com/MicrosoftDocs/minecraft-creator/blob/main/",
@@ -37,6 +38,22 @@ def norm(text):
     text = re.sub(r"https?://\S+", " ", text)
     return re.sub(r"[^\w]+", " ", text).strip()
 
+def validate_catalog_rows(rows):
+    """Refuse to replace generated catalogs with incomplete/empty source snapshots."""
+    if len(rows) < MIN_CATALOG_ROWS:
+        raise ValueError(
+            f"Refusing to overwrite catalog: found only {len(rows)} source files; "
+            f"expected at least {MIN_CATALOG_ROWS}."
+        )
+    found_sources = {row["source"] for row in rows}
+    missing_sources = set(UPSTREAM) - found_sources
+    if missing_sources:
+        raise ValueError(
+            "Refusing to overwrite catalog: no files found for source(s): "
+            + ", ".join(sorted(missing_sources))
+        )
+
+
 def main():
     rows = []
     for source in UPSTREAM:
@@ -55,6 +72,7 @@ def main():
                          "url": UPSTREAM[source] + rel, "sha": hashlib.sha256(text.encode()).hexdigest(),
                          "norm": norm(text)})
     rows.sort(key=lambda x: (x["source"], x["path"].lower()))
+    validate_catalog_rows(rows)
     OUT.mkdir(parents=True, exist_ok=True)
     catalog = ["# Каталог исходных страниц", "", f"Найдено файлов: **{len(rows)}**.", "",
                "Каталог создаётся из локальных копий upstream. Он не означает, что все страницы переведены или редакционно объединены.", ""]
