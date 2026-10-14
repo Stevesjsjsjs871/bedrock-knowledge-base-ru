@@ -9,6 +9,7 @@ from urllib.parse import unquote
 
 from tools.build_catalog import render_catalog_index, render_source_catalog, validate_catalog_rows
 from tools.validate_repository import validate_json_files, validate_manifest, validate_packs
+from tools.validate_performance_rp import validate_manifest_data
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -134,6 +135,29 @@ class RepositoryIntegrityTests(unittest.TestCase):
             errors, count = validate_packs(root)
             self.assertEqual(count, 1)
             self.assertTrue(any("missing manifest.json" in error for error in errors))
+
+
+    def test_performance_rp_manifest_validator_accepts_valid_manifest(self):
+        data = manifest(
+            "a70e1d0c-8c7b-4b45-9c13-6f1f7c7a0a31",
+            "6d0bb4a9-2f0a-4c3f-8d21-9e8b6b3f4a72",
+        )
+        self.assertEqual(validate_manifest_data(data), [])
+
+    def test_performance_rp_manifest_validator_rejects_non_object_root(self):
+        self.assertEqual(
+            validate_manifest_data([]),
+            ["manifest root must be an object"],
+        )
+
+    def test_performance_rp_manifest_validator_rejects_boolean_version_parts(self):
+        data = manifest(
+            "a70e1d0c-8c7b-4b45-9c13-6f1f7c7a0a31",
+            "6d0bb4a9-2f0a-4c3f-8d21-9e8b6b3f4a72",
+        )
+        data["header"]["version"] = [True, 0, 0]
+        errors = validate_manifest_data(data)
+        self.assertTrue(any("header.version" in error for error in errors))
 
 
 if __name__ == "__main__":
