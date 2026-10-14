@@ -43,7 +43,7 @@ MyVisualPack/
 
 ## Manifest и capability
 
-Для пакета, использующего Vibrant Visuals PBR-ресурсы, официальная документация указывает capability pbr и min_engine_version не ниже [1, 21, 120]. Пример фрагмента:
+Для пакета, использующего Vibrant Visuals PBR-ресурсы, официальная документация указывает capability `pbr` и `min_engine_version` не ниже `[1, 21, 120]`. Ниже приведён сокращённый фрагмент-шаблон с намеренно фиктивными UUID:
 
 ~~~json
 {
@@ -66,22 +66,34 @@ MyVisualPack/
 }
 ~~~
 
-**Не копируйте UUID буквально.** Создайте уникальные UUID для header и каждого module. Перед использованием проверьте актуальные требования manifest и минимальную версию игры.
+**Этот фрагмент не является импортируемым manifest, пока не заменены UUID.** Создайте уникальные UUID для header и каждого module. Для синтаксически корректного примера с настоящими UUID и проверок см. [статический fixture](../../../tests/fixtures/vibrant_visuals_minimal/README.md). Перед использованием проверьте актуальные требования manifest и минимальную версию игры.
 
 ## format_version — не номер игры
 
-format_version внутри конкретного графического JSON указывает версию схемы, по которой интерпретируется этот файл. Это не обязательно версия установленной игры и не то же самое, что min_engine_version в manifest.
+`format_version` внутри конкретного графического JSON указывает версию схемы, по которой интерпретируется этот файл. Это не обязательно версия установленной игры и не то же самое, что `min_engine_version` в manifest.
 
-Например, в обновлении 26.20 для конфигураций атмосферы и воды появилась схема 1.26.20, а поля minecraft:atmosphere_settings / minecraft:water_settings и соответствующие description стали обязательными. Это не означает, что все JSON в паке нужно массово перевести на 1.26.20.
+В обновлении 26.20 для конфигураций атмосферы и воды используется схема `1.26.20` и обязательные корневые объекты/описания согласно соответствующим схемам. Это не означает, что все JSON в паке нужно массово перевести на `1.26.20`.
+
+## Ограничения Texture Set, которые легко пропустить
+
+По официальной схеме Texture Sets:
+
+- слой `color` обязателен;
+- `normal` и `heightmap` нельзя указывать одновременно;
+- `metalness_emissive_roughness` (MER) и `metalness_emissive_roughness_subsurface` (MERS) нельзя указывать одновременно;
+- uniform-значение `color` задаётся четырьмя значениями каналов, а MER — тремя; значения лежат в диапазоне 0–255;
+- если слой ссылается на имя текстуры, файл должен присутствовать в том же resource pack; иначе Texture Set может быть отвергнут.
+
+Texture Set может быть синтаксически корректным JSON и всё равно не соответствовать схеме или ссылаться на отсутствующую текстуру. Официальная документация указывает, что неверный Texture Set не используется, а в Content Log появляется ошибка.
 
 ## Идентификаторы и привязки
 
-Идентификаторы конфигураций должны быть уникальными и включать namespace, например my_pack:default_atmospherics. Проверяйте, как выбранная конфигурация назначается биому или графическому слою. Файл на диске сам по себе не доказывает, что игра его использует.
+Идентификаторы конфигураций должны быть уникальными и включать namespace, например `my_pack:default_atmospherics`. Проверяйте, как выбранная конфигурация назначается биому или графическому слою. Файл на диске сам по себе не доказывает, что игра его использует.
 
 ## Безопасная последовательность разработки
 
 1. Создайте минимальный resource pack и уникальные UUID.
-2. Добавьте только pbr capability, если используете соответствующие PBR/Vibrant Visuals assets.
+2. Добавьте только `pbr` capability, если используете соответствующие PBR/Vibrant Visuals assets.
 3. Начните с одного проверяемого изменения.
 4. Убедитесь, что пакет импортируется и включается.
 5. Проверьте Content Log и ошибки JSON.
@@ -90,9 +102,9 @@ format_version внутри конкретного графического JSON
 
 ## Частые ошибки
 
-- Перепутаны версия игры и format_version конкретной схемы.
+- Перепутаны версия игры и `format_version` конкретной схемы.
 - Повторно использованы UUID из чужого примера.
-- capability pbr отсутствует, хотя пакет рассчитывает на PBR-путь.
+- capability `pbr` отсутствует, хотя пакет рассчитывает на PBR-путь.
 - Папка или файл названы не так, как ожидает соответствующая версия.
 - Идентификатор конфигурации не совпадает с назначением.
 - JSON синтаксически корректен, но использует поле, которого нет в выбранной схеме.
@@ -105,7 +117,8 @@ format_version внутри конкретного графического JSON
 ## Источники
 
 - [Vibrant Visuals Resource Packs — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/vvresourcepacks?view=minecraft-bedrock-stable)
+- [Texture Set JSON and Introduction to Texture Sets — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/texturesetsreference/texturesetsconcepts/texturesetsintroduction?view=minecraft-bedrock-stable)
 - [Atmospheric Effects — Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/atmosphericscustomization?view=minecraft-bedrock-stable)
 - [Minecraft Bedrock 1.26.20 Update Notes for Creators](https://learn.microsoft.com/en-us/minecraft/creator/documents/update1.26.20?view=minecraft-bedrock-stable)
 
-**Статус:** справочник по официальной документации; не заявление об игровом тестировании приведённого шаблона.
+**Статус:** справочник по официальной документации; fixture проверяется автоматически на уровне JSON и базовых правил, но не заявляется как протестированный в игре.
