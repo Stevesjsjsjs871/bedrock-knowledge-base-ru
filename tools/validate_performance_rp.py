@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Validate the minimal Bedrock Performance RP manifest without dependencies."""
+"""Strictly validate the initial Bedrock Performance Resource Pack manifest."""
 
 from __future__ import annotations
 
 import json
-import re
 import sys
 from pathlib import Path
 from uuid import UUID
@@ -12,63 +11,89 @@ from uuid import UUID
 ROOT = Path(__file__).resolve().parents[1]
 PACK = ROOT / "packs" / "Bedrock-Performance-RP"
 MANIFEST = PACK / "manifest.json"
-UUID_RE = re.compile(
-    r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-"
-    r"[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-)
 
 
-def fail(message: str) -> None:
-    print(f"FAIL: {message}", file=sys.stderr)
-    raise SystemExit(1)
+def version_triplet(value: object) -> bool:
+    return (
+        isinstance(value, list)
+        and len(value) == 3
+        and all(isinstance(part, int) and not isinstance(part, bool) and part >= 0 for part in value)
+    )
 
 
-def main() -> None:
-    if not MANIFEST.is_file():
-        fail(f"manifest not found: {MANIFEST.relative_to(ROOT)}")
-
-    try:
-        data = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        fail(f"invalid manifest JSON: {exc}")
-
+def validate_manifest_data(data: object) -> list[str]:
+    """Return validation errors for manifest data, including malformed JSON roots."""
+    errors: list[str] = []
+    if not isinstance(data, dict):
+        return ["manifest root must be an object"]
     if data.get("format_version") != 2:
-        fail("expected manifest format_version 2 for the initial compatibility scaffold")
+        errors.append("expected manifest format_version 2")
 
     header = data.get("header")
     modules = data.get("modules")
     if not isinstance(header, dict):
-        fail("header must be an object")
+        errors.append("header must be an object")
+        header = {}
+    if not isinstance(header.get("name"), str) or not header["name"].strip():
+        errors.append("header.name must be a non-empty string")
+    if not version_triplet(header.get("version")):
+        errors.append("header.version must be three non-negative integers")
+    if not version_triplet(header.get("min_engine_version")):
+        errors.append("header.min_engine_version must be three non-negative integers")
     if not isinstance(modules, list) or not modules:
-        fail("modules must be a non-empty array")
-    if not isinstance(header.get("version"), list) or len(header["version"]) != 3:
-        fail("header.version must be a three-number array")
+        errors.append("modules must be a non-empty array")
+        modules = []
 
-    ids = [("header.uuid", header.get("uuid"))]
+    identifiers: list[tuple[str, object]] = [("header.uuid", header.get("uuid"))]
     for index, module in enumerate(modules):
         if not isinstance(module, dict):
-            fail(f"modules[{index}] must be an object")
-        ids.append((f"modules[{index}].uuid", module.get("uuid")))
+            errors.append(f"modules[{index}] must be an object")
+            continue
+        identifiers.append((f"modules[{index}].uuid", module.get("uuid")))
         if module.get("type") != "resources":
-            fail(f"modules[{index}].type must be 'resources'")
-        if not isinstance(module.get("version"), list) or len(module["version"]) != 3:
-            fail(f"modules[{index}].version must be a three-number array")
+            errors.append(f"modules[{index}].type must be 'resources'")
+        if not version_triplet(module.get("version")):
+            errors.append(f"modules[{index}].version must be three non-negative integers")
 
     seen: set[str] = set()
-    for label, value in ids:
-        if not isinstance(value, str) or not UUID_RE.fullmatch(value):
-            fail(f"{label} is not a valid UUID string")
+    for label, value in identifiers:
+        if not isinstance(value, str):
+            errors.append(f"{label} must be a valid UUID string")
+            continue
         try:
             normalized = str(UUID(value))
-        except ValueError:
-            fail(f"{label} is not a valid UUID")
+        except (ValueError, AttributeError):
+            errors.append(f"{label} must be a valid UUID string")
+            continue
         if normalized in seen:
-            fail(f"duplicate UUID: {value}")
+            errors.append(f"duplicate UUID: {value}")
         seen.add(normalized)
 
-    print("OK: manifest JSON, basic Resource Pack fields, and UUID uniqueness")
+    return errors
+
+
+def main() -> int:
+    if not MANIFEST.is_file():
+        print(f"FAIL: manifest not found: {MANIFEST.relative_to(ROOT)}", file=sys.stderr)
+        return 1
+
+    try:
+        data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        print(f"FAIL: invalid manifest JSON: {exc}", file=sys.stderr)
+        return 1
+
+    errors = validate_manifest_data(data)
+    if errors:
+        print("FAIL: Performance RP manifest validation found problems:", file=sys.stderr)
+        for error in errors:
+            print(f" - {error}", file=sys.stderr)
+        return 1
+
+    print("OK: manifest JSON, Resource Pack fields, version arrays, and UUID uniqueness")
     print("NOTE: this does not validate Minecraft's version-specific schema or in-game behavior.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
