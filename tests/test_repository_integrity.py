@@ -5,6 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from tools.build_catalog import validate_catalog_rows
 from tools.validate_repository import validate_json_files, validate_manifest, validate_packs
 
 
@@ -24,6 +25,22 @@ def manifest(header_uuid: str, module_uuid: str) -> dict:
 
 
 class RepositoryIntegrityTests(unittest.TestCase):
+    def test_empty_catalog_snapshot_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, "Refusing to overwrite catalog"):
+            validate_catalog_rows([])
+
+    def test_catalog_snapshot_missing_an_upstream_is_rejected(self):
+        rows = [{"source": "bedrock-wiki"} for _ in range(120)]
+        with self.assertRaisesRegex(ValueError, "minecraft-creator"):
+            validate_catalog_rows(rows)
+
+    def test_complete_catalog_snapshot_above_minimum_passes(self):
+        rows = (
+            [{"source": "bedrock-wiki"} for _ in range(60)]
+            + [{"source": "minecraft-creator"} for _ in range(60)]
+        )
+        validate_catalog_rows(rows)
+
     def test_repository_json_files_parse(self):
         self.assertEqual(validate_json_files(), [])
 
