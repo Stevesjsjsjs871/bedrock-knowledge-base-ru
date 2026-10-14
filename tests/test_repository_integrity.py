@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
+from urllib.parse import unquote
 
 from tools.build_catalog import validate_catalog_rows
 from tools.validate_repository import validate_json_files, validate_manifest, validate_packs
@@ -40,6 +42,40 @@ class RepositoryIntegrityTests(unittest.TestCase):
             + [{"source": "minecraft-creator"} for _ in range(60)]
         )
         validate_catalog_rows(rows)
+
+    def test_authored_markdown_local_links_resolve(self):
+        generated = {
+            "КАТАЛОГ_СТАТЕЙ.md",
+            "ПОВТОРЫ_И_СВЯЗИ.md",
+            "РЕЕСТР_КОМПОНЕНТОВ_СУЩНОСТЕЙ.md",
+        }
+        markdown_files = sorted(
+            path for path in ROOT.rglob("*.md")
+            if not any(part in {".git", ".venv", "__pycache__", "sources"} for part in path.relative_to(ROOT).parts)
+            and path.name not in generated
+        )
+        repo_files = {
+            path.relative_to(ROOT).as_posix()
+            for path in ROOT.rglob("*")
+            if path.is_file() and not any(part in {".git", ".venv", "__pycache__", "sources"} for part in path.relative_to(ROOT).parts)
+        }
+        link_pattern = re.compile(r"\\]\\(([^)]+)\\)")
+        broken = []
+        for source in markdown_files:
+            text = source.read_text(encoding="utf-8")
+            for raw_target in link_pattern.findall(text):
+                target = unquote(raw_target.strip().split("#", 1)[0].split("?", 1)[0])
+                if not target or target.startswith(("http://", "https://", "mailto:", "tel:")):
+                    continue
+                candidate = (source.parent / target).resolve()
+                try:
+                    relative = candidate.relative_to(ROOT.resolve()).as_posix()
+                except ValueError:
+                    broken.append(f"{source.relative_to(ROOT)} -> outside repository: {raw_target}")
+                    continue
+                if relative not in repo_files:
+                    broken.append(f"{source.relative_to(ROOT)} -> missing: {raw_target}")
+        self.assertEqual(broken, [], "\\n".join(broken))
 
     def test_repository_json_files_parse(self):
         self.assertEqual(validate_json_files(), [])
