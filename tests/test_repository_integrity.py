@@ -83,7 +83,7 @@ class RepositoryIntegrityTests(unittest.TestCase):
             for path in ROOT.rglob("*")
             if path.is_file() and not any(part in {".git", ".venv", "__pycache__", "sources"} for part in path.relative_to(ROOT).parts)
         }
-        link_pattern = re.compile(r"\\]\\(([^)]+)\\)")
+        link_pattern = re.compile(r"\]\(([^)]+)\)")
         broken = []
         for source in markdown_files:
             text = source.read_text(encoding="utf-8")
@@ -99,7 +99,7 @@ class RepositoryIntegrityTests(unittest.TestCase):
                     continue
                 if relative not in repo_files:
                     broken.append(f"{source.relative_to(ROOT)} -> missing: {raw_target}")
-        self.assertEqual(broken, [], "\\n".join(broken))
+        self.assertEqual(broken, [], "\n".join(broken))
 
     def test_repository_json_files_parse(self):
         self.assertEqual(validate_json_files(), [])
