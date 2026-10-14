@@ -17,11 +17,6 @@ class KnowledgeMetadataSchemaTests(unittest.TestCase):
         cls.schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
         cls.records = json.loads(RECORDS_PATH.read_text(encoding="utf-8"))["records"]
 
-    @classmethod
-    def setUpClass(cls):
-        cls.schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
-        cls.records = json.loads(RECORDS_PATH.read_text(encoding="utf-8"))["records"]
-
     def test_schema_is_json_schema_2020_12(self):
         self.assertEqual(
             self.schema.get("$schema"),
