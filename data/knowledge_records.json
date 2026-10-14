@@ -1,0 +1,96 @@
+{
+  "records": [
+    {
+      "document": "packs/Bedrock-Performance-RP/README.md",
+      "claim": "Performance RP is currently a minimal Resource Pack scaffold without visual overrides; import and FPS improvement have not been demonstrated.",
+      "last_reviewed": "2026-10-14",
+      "game_versions": [
+        "1.21.51",
+        "26.50"
+      ],
+      "evidence": {
+        "documentation": "not_checked",
+        "source_code": "inspected",
+        "in_game": {
+          "status": "not_tested",
+          "tested_versions": [],
+          "platform": null,
+          "tested_on": null
+        }
+      },
+      "sources": [
+        {
+          "kind": "upstream_code",
+          "url": "https://github.com/Stevesjsjsjs871/bedrock-knowledge-base-ru/blob/main/packs/Bedrock-Performance-RP/README.md",
+          "checked_on": "2026-10-14",
+          "note": "Reviewed the repository's own pack status and test checklist; this is not an in-game test."
+        }
+      ],
+      "limitations": [
+        "No import test in Bedrock 1.21.51 or 26.50.",
+        "No repeatable FPS or frame-time measurements.",
+        "A structurally valid manifest does not establish runtime compatibility."
+      ]
+    },
+    {
+      "document": "docs/ru/разборы/АНАЛИЗ_FPS_BOOSTER_И_LITHIUM.md",
+      "claim": "The FPS Booster and Lithium conclusions are based on static inspection of the supplied archives; no in-game FPS test was performed.",
+      "last_reviewed": "2026-10-14",
+      "game_versions": [
+        "1.21.51",
+        "26.50"
+      ],
+      "evidence": {
+        "documentation": "not_checked",
+        "source_code": "inspected",
+        "in_game": {
+          "status": "not_tested",
+          "tested_versions": [],
+          "platform": null,
+          "tested_on": null
+        }
+      },
+      "sources": [
+        {
+          "kind": "community",
+          "url": "https://github.com/Stevesjsjsjs871/bedrock-knowledge-base-ru/blob/main/docs/ru/разборы/АНАЛИЗ_FPS_BOOSTER_И_LITHIUM.md",
+          "checked_on": "2026-10-14",
+          "note": "Repository analysis of the two user-supplied pack archives; source URL is an audit trail for the analysis, not proof of performance gains."
+        }
+      ],
+      "limitations": [
+        "No runtime compatibility verification.",
+        "No FPS/frame-time comparison.",
+        "Findings describe archive contents and do not establish that the packs improve performance."
+      ]
+    },
+    {
+      "document": "docs/ru/руководства/СОВМЕСТИМОСТЬ_STABLE_PREVIEW.md",
+      "claim": "A syntactically valid JSON file and a format_version value do not by themselves prove that a feature is supported in the target Stable or Preview game version.",
+      "last_reviewed": "2026-10-14",
+      "game_versions": [],
+      "evidence": {
+        "documentation": "not_checked",
+        "source_code": "not_applicable",
+        "in_game": {
+          "status": "not_applicable",
+          "tested_versions": [],
+          "platform": null,
+          "tested_on": null
+        }
+      },
+      "sources": [
+        {
+          "kind": "official_docs",
+          "url": "https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable",
+          "checked_on": null,
+          "note": "Official documentation entry point is linked by the article; the specific claim has not yet been re-audited against a version-pinned page."
+        }
+      ],
+      "limitations": [
+        "This is a compatibility-checking principle, not confirmation of any individual field or feature.",
+        "The specific claim still needs review against version-pinned official documentation."
+      ]
+    }
+  ]
+}
