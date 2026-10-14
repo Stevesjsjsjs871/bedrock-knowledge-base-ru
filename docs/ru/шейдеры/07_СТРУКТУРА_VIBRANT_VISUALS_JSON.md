@@ -21,24 +21,25 @@ MyVisualPack/
 ├── manifest.json
 ├── textures/
 │   ├── blocks/
+│   │   └── stone.texture_set.json
 │   ├── entity/
+│   ├── particle/
 │   ├── items/
 │   └── ...
 ├── textures_list.json
 ├── lighting/
-│   ├── global.json
-│   └── ...
+│   └── default_lighting.json
 ├── atmospherics/
-│   └── atmospherics.json
+│   └── default_atmospherics.json
 ├── color_grading/
-│   └── ...
+│   └── default_color_grading.json
 ├── water/
-│   └── ...
-└── pbr/
-    └── global.json
+│   └── water.json
+└── cubemaps/
+    └── ...
 ~~~
 
-Это иллюстративная схема: набор каталогов зависит от функций пакета. Не создавайте пустые JSON только ради совпадения со схемой.
+Это иллюстративная схема по официальной документации: реальные имена файлов и набор каталогов зависят от функций пакета. Texture Set JSON располагается рядом с соответствующей текстурой в подходящем каталоге `textures/`, а не в универсальном каталоге `pbr/`. Не создавайте пустые JSON только ради совпадения со схемой.
 
 ## Manifest и capability
 
