@@ -1,0 +1,5 @@
+sources/bedrock-wiki/
+sources/minecraft-creator/
+__pycache__/
+*.py[cod]
+.venv/
