@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the minimal Silverblood Performance RP manifest without dependencies."""
+"""Validate the minimal Bedrock Performance RP manifest without dependencies."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from pathlib import Path
 from uuid import UUID
 
 ROOT = Path(__file__).resolve().parents[1]
-PACK = ROOT / "packs" / "Silverblood-Performance-RP"
+PACK = ROOT / "packs" / "Bedrock-Performance-RP"
 MANIFEST = PACK / "manifest.json"
 UUID_RE = re.compile(
     r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-"
