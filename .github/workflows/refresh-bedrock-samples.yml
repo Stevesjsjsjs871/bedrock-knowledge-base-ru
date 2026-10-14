@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: "43 5 * * 1"
   push:
+    branches: [main]
     paths:
       - "tools/sync_bedrock_samples_releases.py"
       - ".github/workflows/refresh-bedrock-samples.yml"
