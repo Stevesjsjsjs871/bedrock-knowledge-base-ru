@@ -6,6 +6,8 @@ from datetime import date
 from urllib.parse import urlparse
 from pathlib import Path
 
+from jsonschema import Draft202012Validator, FormatChecker
+
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "data" / "knowledge_record.schema.json"
 RECORDS_PATH = ROOT / "data" / "knowledge_records.json"
@@ -18,6 +20,7 @@ class KnowledgeMetadataSchemaTests(unittest.TestCase):
         cls.records = json.loads(RECORDS_PATH.read_text(encoding="utf-8"))["records"]
 
     def test_schema_is_json_schema_2020_12(self):
+        Draft202012Validator.check_schema(self.schema)
         self.assertEqual(
             self.schema.get("$schema"),
             "https://json-schema.org/draft/2020-12/schema",
@@ -59,6 +62,20 @@ class KnowledgeMetadataSchemaTests(unittest.TestCase):
         self.assertIn("limitations", self.schema["required"])
         self.assertGreaterEqual(self.schema["properties"]["sources"]["minItems"], 1)
 
+
+    def test_every_seed_record_validates_against_the_json_schema(self):
+        validator = Draft202012Validator(self.schema, format_checker=FormatChecker())
+        for record in self.records:
+            with self.subTest(document=record.get("document")):
+                errors = sorted(validator.iter_errors(record), key=lambda error: list(error.path))
+                self.assertEqual(
+                    errors,
+                    [],
+                    "\\n".join(
+                        f"{'/'.join(map(str, error.path))}: {error.message}"
+                        for error in errors
+                    ),
+                )
 
     def test_seed_records_have_required_fields_and_existing_documents(self):
         self.assertGreaterEqual(len(self.records), 1)
