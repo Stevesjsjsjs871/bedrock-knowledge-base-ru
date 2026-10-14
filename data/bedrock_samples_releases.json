@@ -1,6 +1,6 @@
 {
   "source": "https://github.com/Mojang/bedrock-samples",
-  "generated_at": "2026-10-14T17:53:41+00:00",
+  "generated_at": "2026-10-14T18:39:07+00:00",
   "releases": [
     {
       "tag": "v1.26.60.29-preview",
@@ -14,7 +14,7 @@
           "name": "bedrock-samples-v1.26.60.29-preview-full.zip",
           "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.29-preview/bedrock-samples-v1.26.60.29-preview-full.zip",
           "size_bytes": 169848451,
-          "download_count": 859
+          "download_count": 861
         },
         "min": {
           "name": "bedrock-samples-v1.26.60.29-preview-min.zip",
@@ -80,7 +80,7 @@
           "name": "bedrock-samples-v1.26.50.4-full.zip",
           "url": "https://github.com/Mojang/bedrock-samples/releases/download/v1.26.50.4/bedrock-samples-v1.26.50.4-full.zip",
           "size_bytes": 169385576,
-          "download_count": 4933
+          "download_count": 4941
         },
         "min": {
           "name": "bedrock-samples-v1.26.50.4-min.zip",
