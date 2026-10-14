@@ -125,8 +125,8 @@
 - [Официальные ZIP-архивы Mojang Bedrock Samples по версиям](docs/ru/справочник/КАТАЛОГ_BEDROCK_SAMPLES.md)
 
 ## Собственный Performance Resource Pack
-- [Прототип пакета и инструкция по проверке](packs/Silverblood-Performance-RP/README.md)
-- [Manifest прототипа](packs/Silverblood-Performance-RP/manifest.json)
+- [Прототип Bedrock Performance RP и инструкция по проверке](packs/Bedrock-Performance-RP/README.md)
+- [Manifest прототипа](packs/Bedrock-Performance-RP/manifest.json)
 - [Валидатор manifest и UUID](tools/validate_performance_rp.py) — запуск: `python tools/validate_performance_rp.py`
 
 ## Разборы сторонних паков
