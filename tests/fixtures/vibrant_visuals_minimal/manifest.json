@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Vibrant Visuals Minimal Validation Fixture",
+    "description": "Static validation fixture for Bedrock resource-pack manifest and Texture Set rules.",
+    "uuid": "2c6b5b81-1a26-4e68-a9c0-26a0b8a09d01",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 120]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "af4d7f6e-87f3-4cb5-92c1-760c20f0d102",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}
