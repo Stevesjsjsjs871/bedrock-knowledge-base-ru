@@ -91,6 +91,72 @@
         "This is a compatibility-checking principle, not confirmation of any individual field or feature.",
         "The specific claim still needs review against version-pinned official documentation."
       ]
+    },
+    {
+      "document": "docs/ru/разборы/АНАЛИЗ_FPS_BOOSTER_И_LITHIUM.md",
+      "claim": "Minecraft Bedrock particle effects use a custom JSON format and are stored in a resource pack's particles directory; this describes pack structure, not a measured performance benefit.",
+      "last_reviewed": "2026-10-14",
+      "game_versions": [
+        "1.21.51",
+        "26.50"
+      ],
+      "evidence": {
+        "documentation": "confirmed",
+        "source_code": "inspected",
+        "in_game": {
+          "status": "not_tested",
+          "tested_versions": [],
+          "platform": null,
+          "tested_on": null
+        }
+      },
+      "sources": [
+        {
+          "kind": "official_docs",
+          "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/particleeffects?view=minecraft-bedrock-stable",
+          "checked_on": "2026-10-14",
+          "note": "Microsoft Learn Stable particle tutorial states that Bedrock particle effects use a custom JSON format and files are stored in a resource pack's particles folder."
+        },
+        {
+          "kind": "community",
+          "url": "https://github.com/Stevesjsjsjs871/bedrock-knowledge-base-ru/blob/main/docs/ru/разборы/АНАЛИЗ_FPS_BOOSTER_И_LITHIUM.md",
+          "checked_on": "2026-10-14",
+          "note": "Repository's static inspection of the two supplied archives; it does not establish runtime performance."
+        }
+      ],
+      "limitations": [
+        "This confirms the documented file format and location only; it does not confirm that either analyzed pack imports or works in game.",
+        "No FPS or frame-time measurements were performed.",
+        "The official page is the Stable documentation view, but no game-version-specific runtime behavior was tested."
+      ]
+    },
+    {
+      "document": "docs/ru/руководства/ПРОВЕРКА_JSON_И_СХЕМЫ.md",
+      "claim": "The guide distinguishes JSON syntax validation from structure, semantic, compatibility, and in-game validation; this is a verification workflow, not proof that a particular pack is compatible.",
+      "last_reviewed": "2026-10-14",
+      "evidence": {
+        "documentation": "not_checked",
+        "source_code": "not_applicable",
+        "in_game": {
+          "status": "not_applicable",
+          "tested_versions": [],
+          "platform": null,
+          "tested_on": null
+        }
+      },
+      "sources": [
+        {
+          "kind": "official_docs",
+          "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/schemas?view=minecraft-bedrock-stable",
+          "checked_on": null,
+          "note": "Linked by the guide as the official schema documentation. The page could not be independently opened during this review, so the claim remains not_checked."
+        }
+      ],
+      "limitations": [
+        "No individual JSON example or Minecraft schema was validated as part of this record.",
+        "No runtime or compatibility test was performed.",
+        "Documentation status remains not_checked until the specific official schema page can be reviewed."
+      ]
     }
   ]
 }
