@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Test release index transformation
-        run: python -m unittest tests.test_bedrock_samples_catalog -v
+        run: python -m unittest discover -s tests -p 'test_bedrock_samples_catalog.py' -v
       - name: Refresh official release index
         run: python tools/sync_bedrock_samples_releases.py
       - name: Commit refreshed index
