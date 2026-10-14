@@ -127,3 +127,5 @@
 ## Разборы сторонних паков
 - [Actions & Stuff 1.1.64 — анализ Resource Pack](docs/ru/разборы/РАЗБОР_ACTIONS_AND_STUFF_RP.md)
 - [Realistic Biomes 1.3 — анализ связки Behavior Pack + Resource Pack](docs/ru/разборы/РАЗБОР_REALISTIC_BIOMES_ADDON.md)
+- [План чистой реализации механик двух паков](docs/ru/разборы/ПЛАН_ЧИСТОЙ_РЕАЛИЗАЦИИ_МЕХАНИК_ДВУХ_ПАКОВ.md)
+- [Собственная реализация EventBus на JavaScript](examples/clean-room/core/event-bus.js)
