@@ -118,3 +118,5 @@
 - `sources/` — локальные upstream-копии для анализа; не коммитятся по умолчанию.
 
 Подробности о правах и атрибуции: [LICENSES_AND_ATTRIBUTION.md](LICENSES_AND_ATTRIBUTION.md).
+### Автоматическая проверка раздела шейдеров
+Для проверки синтаксиса JSON-примеров и локальных Markdown-ссылок запускается GitHub Actions: [Validate shader documentation](.github/workflows/validate-shader-docs.yml). Локальный запуск: `python -m unittest discover -s tests -v`. Эта проверка не заменяет тестирование resource pack в Minecraft.
