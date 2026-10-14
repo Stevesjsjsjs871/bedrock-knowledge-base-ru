@@ -2,6 +2,7 @@ name: Refresh source catalog
 
 on:
   push:
+    branches: [main]
     paths:
       - 'tools/**'
       - '.github/workflows/refresh-catalog.yml'
