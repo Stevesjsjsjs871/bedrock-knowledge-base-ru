@@ -33,7 +33,7 @@ def title(text, path):
         if path.stem.lower() == "section":
             return f"{path.parent.name} — раздел навигации"
     for line in text.splitlines()[:50]:
-        match = re.match(r"^\\s*#\\s+(.+?)\\s*#*\\s*$", line)
+        match = re.match(r"^\s*#\s+(.+?)\s*#*\s*$", line)
         if match and match.group(1).strip().lower() not in {"section", "overview"}:
             return match.group(1)
     return path.stem.replace("_", " ").replace("-", " ")
@@ -42,8 +42,8 @@ def title(text, path):
 def norm(text):
     text = unicodedata.normalize("NFKC", text).lower()
     text = re.sub(r"```.*?```|`[^`]*`", " ", text, flags=re.S)
-    text = re.sub(r"https?://\\S+", " ", text)
-    return re.sub(r"[^\\w]+", " ", text).strip()
+    text = re.sub(r"https?://\S+", " ", text)
+    return re.sub(r"[^\w]+", " ", text).strip()
 
 
 def validate_catalog_rows(rows):
