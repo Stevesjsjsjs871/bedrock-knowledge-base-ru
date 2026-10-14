@@ -10,6 +10,8 @@ from urllib.parse import unquote
 from tools.build_catalog import validate_catalog_rows
 from tools.validate_repository import validate_json_files, validate_manifest, validate_packs
 
+ROOT = Path(__file__).resolve().parents[1]
+
 
 def manifest(header_uuid: str, module_uuid: str) -> dict:
     return {
