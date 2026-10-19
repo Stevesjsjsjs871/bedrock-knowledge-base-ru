@@ -1,11 +1,12 @@
 # Каталог исходных страниц: Microsoft Learn / Minecraft Creator
 
-Найдено файлов: **4299**.
+Найдено файлов: **4308**.
 
 Список построен из локальной копии upstream. Наличие страницы в каталоге не означает, что она переведена, проверена или редакционно объединена.
 
 - [Validate Schema Agent](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/.github/agents/validate-schema.md) — `minecraft-creator/.github/agents/validate-schema.md`
 - [copilot instructions](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/.github/copilot-instructions.md) — `minecraft-creator/.github/copilot-instructions.md`
+- [dependabot](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/.github/dependabot.yml) — `minecraft-creator/.github/dependabot.yml`
 - [creator portal bug report](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/.github/ISSUE_TEMPLATE/creator-portal-bug-report.md) — `minecraft-creator/.github/ISSUE_TEMPLATE/creator-portal-bug-report.md`
 - [feature request](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/.github/ISSUE_TEMPLATE/feature_request.md) — `minecraft-creator/.github/ISSUE_TEMPLATE/feature_request.md`
 - [missing content](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/.github/ISSUE_TEMPLATE/missing-content.md) — `minecraft-creator/.github/ISSUE_TEMPLATE/missing-content.md`
@@ -131,8 +132,9 @@
 - [Editor Action Bar](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorActionBar.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorActionBar.md`
 - [Editor Block Inspector](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorBlockInspector.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorBlockInspector.md`
 - [Brush Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorBrushTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorBrushTool.md`
-- [Camera Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorCameraTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorCameraTool.md`
+- [Cinematic Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorCameraTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorCameraTool.md`
 - [Chunk Management](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorChunkManagement.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorChunkManagement.md`
+- [Control Help](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorControlHelp.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorControlHelp.md`
 - [Custom Dimensions](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorCustomDimensions.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorCustomDimensions.md`
 - [Custom Mesh Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorCustomMeshTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorCustomMeshTool.md`
 - [Editor Entity Inspector](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorEntityInspector.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorEntityInspector.md`
@@ -149,6 +151,7 @@
 - [Editor Overview](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorOverview.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorOverview.md`
 - [Paste Preview](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorPastePreview.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorPastePreview.md`
 - [Pencil Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorPencilTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorPencilTool.md`
+- [Primitives Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorPrimitivesTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorPrimitivesTool.md`
 - [Publish to Realms](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorRealms.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorRealms.md`
 - [Repeater Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorRepeaterTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorRepeaterTool.md`
 - [Ruler Tool](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/BedrockEditor/EditorRulerTool.md) — `minecraft-creator/creator/Documents/BedrockEditor/EditorRulerTool.md`
@@ -284,6 +287,7 @@
 - [Physically Based Rendering Tutorial](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/RTXPBRTutorial.md) — `minecraft-creator/creator/Documents/RTXPBRTutorial.md`
 - [Introduction to Scoreboards](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/ScoreboardIntroduction.md) — `minecraft-creator/creator/Documents/ScoreboardIntroduction.md`
 - [Working with Scoreboard Operations](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/ScoreboardOperationsTutorial.md) — `minecraft-creator/creator/Documents/ScoreboardOperationsTutorial.md`
+- [Common Scripting Errors in Minecraft](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/common-errors.md) — `minecraft-creator/creator/Documents/scripting/common-errors.md`
 - [Building with Custom Components](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/components-tutorial.md) — `minecraft-creator/creator/Documents/scripting/components-tutorial.md`
 - [Scripting Custom Commands Overview](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/custom-commands.md) — `minecraft-creator/creator/Documents/scripting/custom-commands.md`
 - [Introducing Custom Components](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/custom-components.md) — `minecraft-creator/creator/Documents/scripting/custom-components.md`
@@ -298,9 +302,11 @@
 - [Open Source Scripting Libraries](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/libraries.md) — `minecraft-creator/creator/Documents/scripting/libraries.md`
 - [Building Multiplayer-Aware Scripts](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/multiplayer-scripts.md) — `minecraft-creator/creator/Documents/scripting/multiplayer-scripts.md`
 - [Next Steps: Scripting with TypeScript](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/next-steps.md) — `minecraft-creator/creator/Documents/scripting/next-steps.md`
+- [Performance in Scripting](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/script-performance.md) — `minecraft-creator/creator/Documents/scripting/script-performance.md`
 - [Game Loops and Timed Callbacks](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/system-run-guide.md) — `minecraft-creator/creator/Documents/scripting/system-run-guide.md`
 - [Scripting V2 Overview](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/v2-overview.md) — `minecraft-creator/creator/Documents/scripting/v2-overview.md`
 - [Script Module Versioning](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/versioning.md) — `minecraft-creator/creator/Documents/scripting/versioning.md`
+- [Minecraft VS Code Debugger](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/vscode-debugger.md) — `minecraft-creator/creator/Documents/scripting/vscode-debugger.md`
 - [World and Dimension APIs](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/scripting/world-apis.md) — `minecraft-creator/creator/Documents/scripting/world-apis.md`
 - [Simulation Distance, Render Distance, and Ticking Areas](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/SimulationRenderDistanceGuide.md) — `minecraft-creator/creator/Documents/SimulationRenderDistanceGuide.md`
 - [Introduction to Skin Packs](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/SkinPack.md) — `minecraft-creator/creator/Documents/SkinPack.md`
@@ -373,6 +379,7 @@
 - [Water Effects](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/VibrantVisuals/WaterCustomization.md) — `minecraft-creator/creator/Documents/VibrantVisuals/WaterCustomization.md`
 - [Voxel Shapes](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/VoxelShapes.md) — `minecraft-creator/creator/Documents/VoxelShapes.md`
 - [World Generation Overview](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/world-generation.md) — `minecraft-creator/creator/Documents/world-generation.md`
+- [Introduction to World Clocks](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/WorldClocks.md) — `minecraft-creator/creator/Documents/WorldClocks.md`
 - [World Height Changes in Caves and Cliffs Part 2](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/WorldHeightChange.md) — `minecraft-creator/creator/Documents/WorldHeightChange.md`
 - [Minecraft: Bedrock Edition Creator Documentation" # < 60 chars](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/index.yml) — `minecraft-creator/creator/index.yml`
 - [Prior Script API Reference Documentation # < 60 chars](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/PriorScriptAPI/index.yml) — `minecraft-creator/creator/PriorScriptAPI/index.yml`
@@ -1117,6 +1124,7 @@
 - [TOC](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DialogueReference/Examples/DialogueDefinitions/TOC.yml) — `minecraft-creator/creator/Reference/Content/DialogueReference/Examples/DialogueDefinitions/TOC.yml`
 - [NPC Dialogue Documentation](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DialogueReference/Examples/DialogueList.md) — `minecraft-creator/creator/Reference/Content/DialogueReference/Examples/DialogueList.md`
 - [Dimensions Documentation - minecraft:bounds](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/bounds.md) — `minecraft-creator/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/bounds.md`
+- [Dimensions Documentation - minecraft:clouds](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/clouds.md) — `minecraft-creator/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/clouds.md`
 - [Dimensions Documentation - minecraft:components](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/components.md) — `minecraft-creator/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/components.md`
 - [Dimensions Documentation - minecraft:defaultbiome](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/defaultbiome.md) — `minecraft-creator/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/defaultbiome.md`
 - [Dimensions Documentation - minecraft:description](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/description.md) — `minecraft-creator/creator/Reference/Content/DimensionReference/Examples/DimensionComponents/description.md`
@@ -2513,6 +2521,7 @@
 - [Visuals Documentation - minecraft:geometry.v1.16.0](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/geometry.v1.16.0.md) — `minecraft-creator/creator/Reference/Content/VisualReference/geometry.v1.16.0.md`
 - [Visuals Documentation - minecraft:geometry.v1.19.30](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/geometry.v1.19.30.md) — `minecraft-creator/creator/Reference/Content/VisualReference/geometry.v1.19.30.md`
 - [Visuals Documentation - minecraft:geometry.v1.21.0](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/geometry.v1.21.0.md) — `minecraft-creator/creator/Reference/Content/VisualReference/geometry.v1.21.0.md`
+- [Visuals Documentation - minecraft:geometry.v1.26.40](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/geometry.v1.26.40.md) — `minecraft-creator/creator/Reference/Content/VisualReference/geometry.v1.26.40.md`
 - [Visuals Documentation - minecraft:geometry.v1.8.0](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/geometry.v1.8.0.md) — `minecraft-creator/creator/Reference/Content/VisualReference/geometry.v1.8.0.md`
 - [Visuals Documentation - minecraft:index](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/index.md) — `minecraft-creator/creator/Reference/Content/VisualReference/index.md`
 - [Visuals Documentation - minecraft:persona_actor_animation.v1.8.0](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Reference/Content/VisualReference/persona_actor_animation.v1.8.0.md) — `minecraft-creator/creator/Reference/Content/VisualReference/persona_actor_animation.v1.8.0.md`
