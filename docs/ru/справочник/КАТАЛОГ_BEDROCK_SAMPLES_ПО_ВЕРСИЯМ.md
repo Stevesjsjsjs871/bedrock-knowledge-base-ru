@@ -1,6 +1,6 @@
 # Официальные ZIP-архивы Mojang Bedrock Samples по версиям
 
-> Индекс создан автоматически: 2026-10-19T11:13:11+00:00. Это каталог официальных релизов, а не зеркало ZIP-файлов.
+> Индекс создан автоматически: 2026-10-26T11:30:51+00:00. Это каталог официальных релизов, а не зеркало ZIP-файлов.
 
 Источник: [Mojang/bedrock-samples — Releases](https://github.com/Mojang/bedrock-samples/releases). Репозиторий содержит образцы ресурсов и контента Bedrock, а не полный исходный код игрового движка.
 
@@ -15,6 +15,7 @@
 
 | Версия / tag | Канал | Дата публикации | Full ZIP | Min ZIP | Релиз |
 |---|---|---|---|---|---|
+| [v1.26.60.30-preview](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.30-preview) | Preview | 2026-10-26 | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.30-preview/bedrock-samples-v1.26.60.30-preview-full.zip) | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.30-preview/bedrock-samples-v1.26.60.30-preview-min.zip) | [GitHub](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.30-preview) |
 | [v1.26.60.29-preview](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.29-preview) | Preview | 2026-10-02 | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.29-preview/bedrock-samples-v1.26.60.29-preview-full.zip) | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.29-preview/bedrock-samples-v1.26.60.29-preview-min.zip) | [GitHub](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.29-preview) |
 | [v1.26.60.28-preview](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.28-preview) | Preview | 2026-09-25 | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.28-preview/bedrock-samples-v1.26.60.28-preview-full.zip) | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.28-preview/bedrock-samples-v1.26.60.28-preview-min.zip) | [GitHub](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.28-preview) |
 | [v1.26.60.24-preview](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.24-preview) | Preview | 2026-09-16 | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.24-preview/bedrock-samples-v1.26.60.24-preview-full.zip) | [ZIP](https://github.com/Mojang/bedrock-samples/releases/download/v1.26.60.24-preview/bedrock-samples-v1.26.60.24-preview-min.zip) | [GitHub](https://github.com/Mojang/bedrock-samples/releases/tag/v1.26.60.24-preview) |
