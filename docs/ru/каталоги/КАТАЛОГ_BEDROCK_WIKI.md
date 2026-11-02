@@ -1,6 +1,6 @@
 # Каталог исходных страниц: Bedrock Wiki
 
-Найдено файлов: **309**.
+Найдено файлов: **308**.
 
 Список построен из локальной копии upstream. Наличие страницы в каталоге не означает, что она переведена, проверена или редакционно объединена.
 
@@ -98,6 +98,7 @@
 - [selectors](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/commands/selectors.md) — `bedrock-wiki/docs/commands/selectors.md`
 - [Summon helper boats with specific vertical rotations](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/commands/sphere-command.md) — `bedrock-wiki/docs/commands/sphere-command.md`
 - [contents](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/contents.md) — `bedrock-wiki/docs/concepts/contents.md`
+- [manifest](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/manifest.md) — `bedrock-wiki/docs/concepts/manifest.md`
 - [molang](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/molang.md) — `bedrock-wiki/docs/concepts/molang.md`
 - [namespaces](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/namespaces.md) — `bedrock-wiki/docs/concepts/namespaces.md`
 - [overwriting assets](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/overwriting-assets.md) — `bedrock-wiki/docs/concepts/overwriting-assets.md`
@@ -105,7 +106,6 @@
 - [server sounds](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/server-sounds.md) — `bedrock-wiki/docs/concepts/server-sounds.md`
 - [shaders](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/shaders.md) — `bedrock-wiki/docs/concepts/shaders.md`
 - [sounds](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/sounds.md) — `bedrock-wiki/docs/concepts/sounds.md`
-- [subpacks](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/subpacks.md) — `bedrock-wiki/docs/concepts/subpacks.md`
 - [texture atlases](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/texture-atlases.md) — `bedrock-wiki/docs/concepts/texture-atlases.md`
 - [textures list](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/concepts/textures-list.md) — `bedrock-wiki/docs/concepts/textures-list.md`
 - [contribute how to](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/contribute-how-to.md) — `bedrock-wiki/docs/contribute-how-to.md`
@@ -159,7 +159,6 @@
 - [vusr full](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/entities/vusr-full.md) — `bedrock-wiki/docs/entities/vusr-full.md`
 - [graph test](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/graph-test.md) — `bedrock-wiki/docs/graph-test.md`
 - [addons](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/addons.md) — `bedrock-wiki/docs/guide/addons.md`
-- [advancedmanifest](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/advancedmanifest.md) — `bedrock-wiki/docs/guide/advancedmanifest.md`
 - [blockbench](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/blockbench.md) — `bedrock-wiki/docs/guide/blockbench.md`
 - [custom entity](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/custom-entity.md) — `bedrock-wiki/docs/guide/custom-entity.md`
 - [custom item](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/custom-item.md) — `bedrock-wiki/docs/guide/custom-item.md`
