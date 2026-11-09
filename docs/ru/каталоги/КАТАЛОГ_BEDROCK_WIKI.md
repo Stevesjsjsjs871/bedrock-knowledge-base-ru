@@ -1,6 +1,6 @@
 # Каталог исходных страниц: Bedrock Wiki
 
-Найдено файлов: **308**.
+Найдено файлов: **309**.
 
 Список построен из локальной копии upstream. Наличие страницы в каталоге не означает, что она переведена, проверена или редакционно объединена.
 
@@ -60,6 +60,7 @@
 - [vanilla block sounds](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/blocks/vanilla-block-sounds.md) — `bedrock-wiki/docs/blocks/vanilla-block-sounds.md`
 - [vanilla block tags](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/blocks/vanilla-block-tags.md) — `bedrock-wiki/docs/blocks/vanilla-block-tags.md`
 - [vanilla voxel shapes](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/blocks/vanilla-voxel-shapes.md) — `bedrock-wiki/docs/blocks/vanilla-voxel-shapes.md`
+- [assign unique score](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/commands/assign-unique-score.md) — `bedrock-wiki/docs/commands/assign-unique-score.md`
 - [binary logic](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/commands/binary-logic.md) — `bedrock-wiki/docs/commands/binary-logic.md`
 - [block entities](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/commands/block-entities.md) — `bedrock-wiki/docs/commands/block-entities.md`
 - [Aux value example:](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/commands/block-states.md) — `bedrock-wiki/docs/commands/block-states.md`
